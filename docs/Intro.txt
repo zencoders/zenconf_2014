@@ -1,0 +1,6 @@
+Gli zencoders sono un gruppo di sviluppatori e appassionati di informatica che cooperano per realizzare progetti comuni o semplicemente per favorire la circolazione di idee.
+Ogni mombro del gruppo può partecipare a qualsiasi progetto ospitato nei repository open di Zencoders o avviare un nuovo progetto aprendone uno nuovo. Lo scopo di tutto questo è di condividere le conoscenze per poter sviluppare idee innovative.
+Gli zencoders non adottano ne spingono per un aparticolare tecnologia ma il codice dei progetti resterà sempre aperto e rilasciato con licenze [GPL and GPL-compatible, BSD, MIT, Apache, Mozilla, Eclipse, DTFYW].
+Ne viene che modifiche e contributi possono provenire, e sono benaccetti, da chiunque sia interessato al progetto, che faccia parte o no dell gruppo ma ogni progetto ha un ristretto numero di gestori e questi fanno parte del gruppo.
+Chiunque volesse cominciare a contribuire ad un progetto potrebbe chiedere l'accesso al gruppo, accettandone le regole, e il permesso all'attuale mainteiner di quel progetto.
+Il gruppo è totalmente no-profit, non ci sono costi di iscrizione e gli unici profitti che provengono dalla affiliazione al gruppo sono da intendersi in esperienza e visibilità.
