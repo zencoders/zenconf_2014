@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redis intro</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Redis intro
+
+Luca Marturana
+
+Software Engineer @ A-Tono
+
+---
+
+# Agenda
+
+1. Cos'è Redis
+2. Come funziona
+4. Esempi pratici
+5. Utilizzi reali
+6. Conclusioni
+
+---
+
+# Cos'è Redis
+
+[Redis](http://redis.io) è un database all in memory. Tutte le operazioni sui dati
+vengono eseguite sulla memoria RAM.
+
+Che fa pensare subito ad una cache... Ma non è così.
+
+Redis è uno storage **persistente**.
+
+---
+
+# Vantaggi della RAM
+
+1. Le letture e le scritture hanno la stessa velocità
+2. Latenze di lettura/scrittura trascurabili
+3. Si può lavorare a singolo thread, semplificando molto il codice
+
+---
+
+# Persistenza
+
+Su Redis conta prima di tutto il dato in RAM, però garantisce anche la
+persistenza su disco, in due modi:
+
+1. Viene scritto un journal ogni secondo con tutte le modifiche
+2. Ogni N scritture in M tempo fa una snapshot completa della base di dati su disco
+
+---
+
+# Impieghi
+
+Redis può essere visto come una RAM condivisa.
+
+1. Sistemi a code
+2. Storage configurazioni
+3. Dati a forte località temporale
+4. Cache
+
+---
+
+# Sistema a code
+
+Produttore:
+
+```
+LPUSH coda hello
+```
+
+Consumatore:
+
+```
+BRPOP coda
+```
+
+---
+
+# Controllo accessi
+
+```
+SET access_control 0 EX 60 NX
+INCR access_control
+```
+
+Diamo l'accesso se `access_control` è minore o uguale al massimo consentito.
+
+---
+
+# Le aziende lo usano per..
+
+* Twitter per gestire le timeline
+* Pinterest per mantenere il grafo following/followers
+* A-Tono per gestire transazioni e configurazioni nel suo gateway SMS
+
+---
+
+# Conclusioni
+
+Redis è un database fortemente diverso da tutti gli altri.
+
+Riesce in maniera unica a garantire elevate prestazioni e persistenza del dato.
+
+---
+
+class: center, middle
+
+# Fine
+
+---
+
+# Contatti
+
+Email: [lucamarturana@gmail.com](mailto:lucamarturana@gmail.com)
+
+Twitter: [@luca3m](http://twitter.com/luca3m)
+
+Github: [luca3m](http://github.com/luca3m)
+
+Blog: [luca3m.me](http://luca3m.me)
+
+    </textarea>
+    <script src="js/remark-0.5.9.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
