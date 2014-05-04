@@ -14,7 +14,7 @@
    id="svg3329"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="locandina_L.pdf"
+   sodipodi:docname="locandina_L_BN.svg"
    inkscape:export-filename="/home/blackdevil/Scrivania/zenconf/zenconf_2014/artworks/locandina_L.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -134,9 +134,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="403.16312"
-     inkscape:cy="1109.3561"
+     inkscape:cy="947.73172"
      inkscape:document-units="px"
-     inkscape:current-layer="g4621"
+     inkscape:current-layer="layer5"
      showgrid="false"
      width="1052.36px"
      showguides="true"
@@ -188,7 +188,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,435.82784)"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect3337"
@@ -202,7 +203,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="footer"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3340"
@@ -1079,7 +1081,7 @@
          x="554.74811"
          y="897.44867"
          style="font-size:32px;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace"
-         id="tspan5055">Talk da esperti nel setore I.T.</tspan><tspan
+         id="tspan5055">Talk da esperti nel settore I.T.</tspan><tspan
          sodipodi:role="line"
          x="554.74811"
          y="937.44867"
