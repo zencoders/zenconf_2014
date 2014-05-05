@@ -21,7 +21,7 @@ Software Engineer @ A-Tono
 # Agenda
 
 1. Cos'è Redis
-2. Come funziona
+2. Paradigma
 4. Esempi pratici
 5. Utilizzi reali
 6. Conclusioni
@@ -57,9 +57,53 @@ persistenza su disco, in due modi:
 
 ---
 
-# Impieghi
+# Paradigma
 
-Redis può essere visto come una RAM condivisa.
+Redis usa un paradigma chiave-valore:
+
+```
+> SET pippo pluto
+OK
+> GET pippo
+"pluto"
+>
+```
+
+---
+
+# Paradigma
+
+Le stringhe possono anche contenere numeri:
+
+```
+> SET number 0
+OK
+> INCR number
+(integer) 1
+> INCR number
+(integer) 2
+>
+```
+
+---
+
+# Paradigma
+
+Oppure ci sono anche strutture dati più complesse come i set:
+
+```
+> SADD myset value1 value2
+(integer) 2
+> SISMEMBER myset value2
+(integer) 1
+> SMEMBERS myset
+1) "value1"
+2) "value2"
+>
+```
+
+---
+# Impieghi
 
 1. Sistemi a code
 2. Storage configurazioni
@@ -79,7 +123,7 @@ LPUSH coda hello
 Consumatore:
 
 ```
-BRPOP coda
+BRPOP coda 0
 ```
 
 ---
