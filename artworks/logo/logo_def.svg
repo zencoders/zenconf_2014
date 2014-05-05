@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="694.00116"
+   height="202.03496"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo_def.svg"
+   inkscape:export-filename="/home/origama/temp/zenconf_2014/artworks/logo_def.png"
+   inkscape:export-xdpi="89.984428"
+   inkscape:export-ydpi="89.984428">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3096">
+      <stop
+         style="stop-color:#c8b7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3098" />
+      <stop
+         style="stop-color:#c8b7b7;stop-opacity:0;"
+         offset="1"
+         id="stop3100" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3096"
+       id="radialGradient3872"
+       cx="667.30652"
+       cy="270.46509"
+       fx="667.30652"
+       fy="270.46509"
+       r="391.40417"
+       gradientTransform="matrix(1.8515544,-1.3237356e-8,0,0.08652824,-89.247116,497.91831)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter3999"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter3999-0"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001-0"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003-3"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4891"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4893"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4895"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter3999-1"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001-3"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003-34"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4891-2"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4893-9"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4895-3"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4126"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4128"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4130"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="347.71821"
+     inkscape:cy="105.12459"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="535.17575,-867.39256"
+       id="guide3255" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="581.1377,-1310.8495"
+       id="guide3469" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="658.47172,-1228.4297"
+       id="guide3471" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="75.614584,-1141.2869"
+       id="guide3563" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="223.03862,-1426.512"
+       id="guide3628" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="86.162954,-1344.1846"
+       id="guide3651" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="56.363454,-1273.979"
+       id="guide3653" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="414.18601,-1697.7154"
+       id="guide3874" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="250.61458,-1710.9297"
+       id="guide3876" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="91.766544,197.14285"
+       id="guide3339" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="105.87369,119.64285"
+       id="guide3341" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="92.807765,105.43467"
+       id="guide3075" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(934.18601,688.81678)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff"
+       id="path3993-6-0-4-2"
+       sodipodi:cx="112.14286"
+       sodipodi:cy="633.07648"
+       sodipodi:rx="57.857143"
+       sodipodi:ry="57.857143"
+       d="m 170,633.07648 c 0,31.95362 -25.90352,57.85714 -57.85714,57.85714 -31.953618,0 -57.857143,-25.90352 -57.857143,-57.85714 0,-31.95362 25.903525,-57.85715 57.857143,-57.85715 31.95362,0 57.85714,25.90353 57.85714,57.85715 z"
+       transform="matrix(0.61041803,0,0,0.62737409,-525.26819,-1023.5773)"
+       inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+       inkscape:export-xdpi="89.984406"
+       inkscape:export-ydpi="89.984406" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.369192px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-459.54956"
+       y="-659.5191"
+       id="text3014-4-1-5-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+       inkscape:export-xdpi="89.984406"
+       inkscape:export-ydpi="89.984406"><tspan
+         sodipodi:role="line"
+         id="tspan3016-7-2-1-7"
+         x="-459.13773"
+         y="-659.5191"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                       with open('ZenCodes.                                  </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-657.80762"
+         id="tspan3018-9-8-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                 `num` in numbers    synchronized                            </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-656.09613"
+         id="tspan3020-9-0-1-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                             datetime d      glob.      sys.argv[2] .                        </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-654.38464"
+         id="tspan3022-0-0-6-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                          def myclass   `..` @@oscla   org.    .  class {                    </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-652.67316"
+         id="tspan3024-5-5-4-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                       displ  hooks(   public static void   ma     functor:                  </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-650.96167"
+         id="tspan3026-2-7-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                     $myclass-&gt;method(  impport sys, os.pipe `    @param name`               </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-649.25018"
+         id="tspan3028-9-4-5-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                   fcl   if(system(cmd) myc.  /de   `  $card(  array(&quot;a&quot;   srand             </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-647.5387"
+         id="tspan3030-6-2-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                 format  lists:  ++:   conc    ++ &quot;my  an    WHERE  for(   == myi            </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-645.82721"
+         id="tspan3032-3-6-6-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">               `sys:  myvalue(myvalue) sys.t    Console.W   try{    rais     using           </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-644.11572"
+         id="tspan3034-9-2-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">              connec  SELECT * FROM table mycnf  acco desc and or selector::clas  at         </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-642.40417"
+         id="tspan3036-8-0-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">             openldap string  sys.   print &quot;zenc der &quot; { 'a':   `ls -l` &gt;  appe &amp;firs        </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-640.69269"
+         id="tspan3038-5-1-8-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">            import Tkinter    paste( $obh  &amp;a or it myval  bro roll:   :: [] require a       </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-638.9812"
+         id="tspan3040-6-4-4-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">           case `` super. +y  &lt;svg x=&quot;100&quot;&gt;   expr    say &quot; %rooms 1  --account fb-  yy      </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-637.26971"
+         id="tspan3042-9-5-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          proc     meth Animate =&gt; send(D, open)     putd    EndIf 10  whi    myc`  cont     </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-635.55823"
+         id="tspan3044-2-3-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         and     main (--) import loop $$ or  end onload   UNION WITH tab    timer 150 *2    </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-633.84674"
+         id="tspan3046-2-6-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         end. begin True  GtkLabel *label    doto partition te    let auto  i&lt;- (i + d ) ;   </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-632.13525"
+         id="tspan3048-2-4-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        .mushup ``/.   ^/zenc/    myclass-&gt;her flv    op             &lt;&gt; element &gt;&gt; 71   or   </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-630.42377"
+         id="tspan3050-0-1-8-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        QFileDi   :   and  ..    with myc   toA  channel::bo    myc isEmpty a  not   bodt;  </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-628.71228"
+         id="tspan3052-9-7-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        class T   public pol    str    mycalc d   pt &amp;&amp;a     *i fc  add                ^ac  </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-627.00079"
+         id="tspan3054-6-5-6-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        ::ZenCoders::core::namespac   boost::function st  f = std:   ;;      int     assert </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-625.28931"
+         id="tspan3056-4-1-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        cou   &lt;&lt; endl   public genera    #include &quot;b ost   ::ac myna  const cast&lt;char*&gt; mys </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-623.57782"
+         id="tspan3058-3-5-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        &amp;ac   size_t   return ran  int (*getNextValue)(void) ff   double  sa_family_t famil </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-621.86633"
+         id="tspan3060-3-9-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        pu         a   do puts(&quot;       ac    int main(int argc, char*    &quot;%5d    struct nam </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-620.15485"
+         id="tspan3062-2-5-3-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        cs                float       for     typedef     enum  puts             getchar()   </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-618.44336"
+         id="tspan3064-3-6-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        if(                         else      #define      fp    FILE* f           char* s   </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-616.73187"
+         id="tspan3066-4-4-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         i++                                  strcat(            %s                    int   </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-615.02039"
+         id="tspan3068-8-2-13-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         31]                                  total+=                                  do    </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-613.3089"
+         id="tspan3070-6-3-8-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          }do                                 while(1)                                sle    </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-611.59741"
+         id="tspan3072-3-7-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          getc                               strcpy( a                               for     </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-609.88586"
+         id="tspan3074-4-2-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">           prin                             scanf(%d, &amp;                             get      </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-608.17438"
+         id="tspan3076-3-4-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">             int                       void myfunc(int par                       retu        </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-606.46289"
+         id="tspan3078-0-0-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">               BEQ                 BGEZAL R1 10 ANDI R1 R2 1                    SYS          </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-604.7514"
+         id="tspan3080-4-1-08-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                XOR               SYSCAL 5 SLTIU   MFLO 15 SW                 JAL            </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-603.03992"
+         id="tspan3082-2-7-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                  BNE           BLTZAL R1 1 LUI   001 NOOP MULTU            SLLV             </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-601.32843"
+         id="tspan3084-2-0-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                    MOV R1     ADD R1 R2  JUMP   10 1001 BEQ R1 R2 1      AND                </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-599.61694"
+         id="tspan3086-9-8-5-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                       1101  1010001100  111 001 01  1010 101100 1001   100                  </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-597.90546"
+         id="tspan3088-7-4-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                         110110 100   0  01  101 01100 100 100 1000100011                    </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-596.19397"
+         id="tspan3090-3-6-63-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                            11101001001  00   11  100    11  10100010                        </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-594.48248"
+         id="tspan3092-8-0-9-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                000101001001 10  1001    101000101                           </tspan><tspan
+         sodipodi:role="line"
+         x="-459.13773"
+         y="-592.771"
+         id="tspan3094-0-2-6-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                     010010010010110101001010                              </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:150.99650574000000347px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-865.216"
+       y="-592.17902"
+       id="text3995-1-5-0-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+       inkscape:export-xdpi="89.984406"
+       inkscape:export-ydpi="89.984406"><tspan
+         sodipodi:role="line"
+         id="tspan3997-7-1-2-7"
+         x="-865.216"
+         y="-592.17902"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch">zenc nf</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:90.3152771px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-698.28601"
+       y="-488.22687"
+       id="text4240-6-6-4-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+       inkscape:export-xdpi="89.984406"
+       inkscape:export-ydpi="89.984406"><tspan
+         sodipodi:role="line"
+         id="tspan4242-7-3-7-6"
+         x="-698.28601"
+         y="-488.22687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch">2014</tspan></text>
+    <path
+       style="fill:#ffffff"
+       d="m -934.19181,-599.26127 0,-7.24568 7.24567,0 7.24568,0 0,7.24568 0,7.24567 -7.24568,0 -7.24567,0 0,-7.24567 z m 12.42115,0 0,-5.17549 -5.17548,0 -5.17548,0 0,5.17549 0,5.17548 5.17548,0 5.17548,0 0,-5.17548 z m -8.28076,0 0,-3.1053 3.10528,0 3.10529,0 0,3.1053 0,3.10529 -3.10529,0 -3.10528,0 0,-3.10529 z m 12.42115,2.07019 0,-5.17549 1.0351,0 1.03509,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.07019 0,-2.07019 -4.14039,0 -4.14038,0 0,-2.07019 0,-2.07019 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.07019 0,-2.07019 -3.10529,0 -3.10529,0 0,5.17548 0,5.17548 -1.03509,0 -1.0351,0 0,-5.17548 0,-5.17548 1.0351,0 1.03509,0 0,-1.0351 0,-1.03509 1.0351,0 1.0351,0 0,-1.0351 0,-1.03509 1.03509,0 1.0351,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.03509 1.03509,0 1.0351,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.03509 1.0351,0 1.0351,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.03509 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,2.0702 0,2.07019 2.0702,0 2.07019,0 0,2.07019 0,2.07019 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-2.07019 0,-2.07019 -1.03509,0 -1.0351,0 0,-3.10529 0,-3.10529 1.0351,0 1.03509,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.07019 0,-2.0702 5.17548,0 5.17548,0 0,2.0702 0,2.07019 2.07019,0 2.0702,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.07019 0,-2.07018 1.0351,0 1.03509,0 0,-1.03513 0,-1.03508 -1.03509,0 -1.0351,0 0,-1.03507 0,-1.03514 3.10529,0 3.10528,0 0,1.03514 0,1.03507 -1.03509,0 -1.0351,0 0,2.07021 0,2.07018 1.0351,0 1.03509,0 0,-1.03509 0,-1.03509 2.07019,0 2.0702,0 0,2.07018 0,2.07019 -1.0351,0 -1.0351,0 0,2.07019 0,2.0702 5.17549,0 5.17548,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.07019 0,-2.07018 1.03509,0 1.0351,0 0,-1.03513 0,-1.03508 1.0351,0 1.03509,0 0,-1.03507 0,-1.03514 1.0351,0 1.0351,0 0,-1.03507 0,-1.03508 -1.0351,0 -1.0351,0 0,-1.03513 0,-1.03507 -1.03509,0 -1.0351,0 0,-1.03514 0,-1.03507 1.0351,0 1.03509,0 0,1.03507 0,1.03514 1.0351,0 1.0351,0 0,-1.03514 0,-1.03507 1.03509,0 1.0351,0 0,1.03507 0,1.03514 1.0351,0 1.03509,0 0,-1.03514 0,-1.03507 1.0351,0 1.03509,0 0,1.03507 0,1.03514 1.0351,0 1.03509,0 0,1.03507 0,1.03513 -1.03509,0 -1.0351,0 0,1.03508 0,1.03507 1.0351,0 1.03509,0 0,1.03514 0,1.03507 -1.03509,0 -1.0351,0 0,1.03508 0,1.03513 -1.03509,0 -1.0351,0 0,2.07018 0,2.07019 1.0351,0 1.03509,0 0,-1.03509 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.03509 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 2.07019,0 2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 2.07019,0 2.07019,0 0,1.0351 0,1.03509 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.03509 0,1.0351 1.0351,0 1.03509,0 0,2.07019 0,2.07019 1.0351,0 1.0351,0 0,-2.07019 0,-2.07019 2.07019,0 2.07019,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -2.0702,0 -2.07019,0 0,1.0351 0,1.03509 2.07019,0 2.0702,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,-2.07019 0,-2.07019 1.03509,0 1.0351,0 0,2.07019 0,2.07019 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.03509 -2.07019,0 -2.07019,0 0,-2.07019 0,-2.0702 -2.0702,0 -2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.03509 -3.10528,0 -3.10529,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.03509 0,1.0351 2.0702,0 2.07019,0 0,-1.0351 0,-1.03509 3.10529,0 3.10529,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.03509 -3.10529,0 -3.10529,0 0,1.03509 0,1.0351 -4.14039,0 -4.14038,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,2.07019 0,2.0702 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 1.0351,0 1.03509,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 -2.07019,0 -2.0702,0 0,-2.07019 0,-2.0702 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.07019 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,4.14038 0,4.14039 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 3.10529,0 3.10529,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,2.07019 0,2.07019 -2.07019,0 -2.07019,0 0,-3.10529 0,-3.10529 -1.03509,0 -1.0351,0 0,3.10529 0,3.10529 -1.03509,0 -1.0351,0 0,-5.17548 z m 18.63173,0 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 z m 20.70192,-2.07019 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,-1.03509 z m -20.70192,-2.0702 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 4.14038,0 4.14039,0 0,-1.0351 0,-1.0351 -3.10529,0 -3.10529,0 0,-1.03509 0,-1.0351 3.10529,0 3.10529,0 0,-2.07019 0,-2.07019 1.0351,0 1.03509,0 0,-2.07019 0,-2.07019 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,2.0702 0,2.07019 1.0351,0 1.03509,0 0,-1.0351 0,-1.03509 1.0351,0 1.0351,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,-2.07019 0,-2.0702 1.0351,0 1.03509,0 0,1.0351 0,1.0351 2.07019,0 2.0702,0 0,-3.10529 0,-3.10529 -1.0351,0 -1.0351,0 0,1.0351 0,1.03509 -3.10528,0 -3.10529,0 0,-1.03509 0,-1.0351 2.07019,0 2.07019,0 0,-3.10529 0,-3.10528 1.0351,0 1.03509,0 0,2.07019 0,2.07019 1.0351,0 1.0351,0 0,-3.10529 0,-3.10529 -1.0351,0 -1.0351,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.07019 0,-2.07019 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 -3.10529,0 -3.10529,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 4.14038,0 4.14039,0 0,-1.03509 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,1.03509 0,1.0351 -3.10528,0 -3.10529,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -2.07019,0 -2.0702,0 0,-2.0702 0,-2.07019 -1.03509,0 -1.0351,0 0,2.07019 0,2.0702 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.03509 0,-1.0351 -2.07019,0 -2.0702,0 0,1.0351 0,1.03509 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.0351,0 0,-2.07019 0,-2.0702 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,2.07019 0,2.07019 -1.03509,0 -1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.03509 0,1.0351 1.0351,0 1.0351,0 0,1.03509 0,1.0351 -3.1053,0 -3.10528,0 0,1.03509 0,1.0351 5.17548,0 5.17548,0 0,2.07019 0,2.07019 1.0351,0 1.03509,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 2.07019,0 2.0702,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,2.07019 0,2.07019 3.10529,0 3.10529,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.03509 0,-1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 1.03509,0 1.0351,0 0,-1.03509 0,-1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.03509 -2.0702,0 -2.07019,0 0,1.0351 0,1.03509 -2.07019,0 -2.07019,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 z m -6.21058,-10.35096 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.03509 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 -1.0351,0 -1.0351,0 0,-2.07019 0,-2.07019 1.0351,0 1.0351,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,2.07019 0,2.07019 -1.03509,0 -1.0351,0 0,-2.07019 0,-2.07019 -1.03509,0 -1.0351,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-5.17549 0,-5.17547 2.07019,0 2.07019,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,1.03509 0,1.0351 3.10529,0 3.10529,0 0,1.03509 0,1.0351 -1.0351,0 -1.0351,0 0,2.07019 0,2.0702 3.10529,0 3.10529,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.03509 0,-1.0351 1.0351,0 1.03509,0 0,-2.07019 0,-2.07019 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.03509 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,2.07019 0,2.07019 1.03509,0 1.0351,0 0,-1.0351 0,-1.03509 5.17548,0 5.17548,0 0,1.03509 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 0,-1.03509 1.0351,0 1.0351,0 0,3.10528 0,3.10529 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,1.03509 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,1.0351 0,1.03509 -2.0702,0 -2.07019,0 0,-1.03509 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.03509 0,1.0351 -2.07019,0 -2.0702,0 0,-2.07019 0,-2.0702 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.03509 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 12.42115,-6.21057 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.03509 3.10529,0 3.10528,0 0,-1.03509 0,-1.0351 1.0351,0 1.03509,0 0,-2.07019 0,-2.07019 1.0351,0 1.03509,0 0,-1.0351 0,-1.03509 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.03509 0,-1.0351 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.03509 -2.07019,0 -2.07019,0 0,2.07019 0,2.07019 -1.0351,0 -1.03509,0 0,-2.07019 0,-2.07019 -2.0702,0 -2.07019,0 0,1.03509 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.03509 -2.07019,0 -2.07019,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.07019 0,-2.07019 -1.0351,0 -1.03509,0 0,3.10528 0,3.10529 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.03509 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -3.10529,0 -3.10529,0 0,1.03509 0,1.0351 4.14039,0 4.14038,0 0,1.0351 0,1.03509 2.07019,0 2.07019,0 0,-1.03509 z m -2.07019,-2.0702 0,-1.03509 1.0351,0 1.03509,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 4.14039,-1.03509 0,-2.07019 -3.10529,0 -3.10529,0 0,-1.0351 0,-1.03509 2.07019,0 2.07019,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-2.0702 0,-2.07019 1.0351,0 1.03509,0 0,1.0351 0,1.03509 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.03509 0,1.0351 -2.07019,0 -2.07019,0 0,1.03509 0,1.0351 1.0351,0 1.03509,0 0,1.03509 0,1.0351 -2.07019,0 -2.07019,0 0,-2.07019 z m -20.70193,-6.21058 0,-2.07019 -1.03509,0 -1.0351,0 0,2.07019 0,2.0702 1.0351,0 1.03509,0 0,-2.0702 z m -2.07019,11.38606 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.03509 -1.03509,0 -1.0351,0 0,-1.03509 z m -6.21057,-20.70192 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 z m 6.21057,-3.10529 0,-2.07019 1.0351,0 1.03509,0 0,2.07019 0,2.07019 -1.03509,0 -1.0351,0 0,-2.07019 z m 28.98269,38.29855 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m -18.63173,-2.07019 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.03509,0 0,-1.03509 z m 26.9125,-2.07019 0,-3.10529 -3.10529,0 -3.10529,0 0,3.10529 0,3.10528 3.10529,0 3.10529,0 0,-3.10528 z m -4.14039,0 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.0351,0 0,-1.03509 z m -33.12307,-2.07019 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.03509,0 0,-1.03509 z m -6.21057,-4.14039 0,-1.03509 1.03509,0 1.0351,0 0,1.03509 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.03509 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,1.03509 0,1.0351 2.07019,0 2.0702,0 0,-1.0351 z m -6.21058,-26.91249 0,-1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.03509 2.07019,0 2.07019,0 0,-1.03509 z m 39.33365,-4.14039 0,-1.0351 -2.07019,0 -2.07019,0 0,-1.03509 0,-1.0351 1.03509,0 1.0351,0 0,-2.07019 0,-2.07018 1.0351,0 1.03509,0 0,-3.10528 0,-3.10529 1.0351,0 1.03509,0 0,-1.03513 0,-1.03507 -1.03509,0 -1.0351,0 0,1.03507 0,1.03513 -1.03509,0 -1.0351,0 0,-1.03513 0,-1.03507 -1.0351,0 -1.03509,0 0,1.03507 0,1.03513 1.03509,0 1.0351,0 0,1.03508 0,1.03507 -1.0351,0 -1.03509,0 0,2.07021 0,2.07021 -2.0702,0 -2.07019,0 0,2.07018 0,2.07019 1.0351,0 1.03509,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 z m -6.21058,-4.14038 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.0351,0 0,-1.03509 z m -20.70192,0 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.03509,0 0,-1.03509 z m 4.14038,0 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.03509,0 0,-1.03509 z m -20.70191,37.26346 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.03509 -1.0351,0 -1.03509,0 0,-1.03509 z m 0,-4.14039 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 z m -4.14039,-10.35096 0,-1.03509 1.0351,0 1.03509,0 0,1.03509 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 62.10576,-12.42115 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-1.0351 z m 2.0702,-5.17548 0,-2.0702 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.03509 0,1.0351 -2.07019,0 -2.07019,0 0,-2.07019 z m -4.14039,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m -31.05288,-3.10529 0,-2.07019 1.0351,0 1.03509,0 0,-2.07018 0,-2.07021 -1.03509,0 -1.0351,0 0,-1.03507 0,-1.03514 -1.0351,0 -1.03509,0 0,1.03514 0,1.03507 -1.0351,0 -1.0351,0 0,-2.07021 0,-2.07015 1.0351,0 1.0351,0 0,-1.03513 0,-1.03507 -1.0351,0 -1.0351,0 0,-1.03514 0,-1.03507 2.0702,0 2.07019,0 0,1.03507 0,1.03514 1.0351,0 1.03509,0 0,-1.03514 0,-1.03507 1.0351,0 1.0351,0 0,4.14041 0,4.14036 1.03509,0 1.0351,0 0,-1.03507 0,-1.03514 1.03509,0 1.0351,0 0,1.03514 0,1.03507 -1.0351,0 -1.03509,0 0,3.1053 0,3.10528 -1.0351,0 -1.03509,0 0,1.0351 0,1.03509 -2.0702,0 -2.07019,0 0,-2.07019 z m 4.14039,-1.03509 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.03509 1.0351,0 1.0351,0 0,-1.03509 z m -2.0702,-8.28077 0,-1.03508 -1.03509,0 -1.0351,0 0,1.03508 0,1.03507 1.0351,0 1.03509,0 0,-1.03507 z m -31.05288,2.07021 0,-7.2457 7.24567,0 7.24568,0 0,7.2457 0,7.24565 -7.24568,0 -7.24567,0 0,-7.24565 z m 12.42115,0 0,-5.17549 -5.17548,0 -5.17548,0 0,5.17549 0,5.17546 5.17548,0 5.17548,0 0,-5.17546 z m -8.28076,0 0,-3.10529 3.10528,0 3.10529,0 0,3.10529 0,3.10528 -3.10529,0 -3.10528,0 0,-3.10528 z m 49.6846,0 0,-7.2457 7.24568,0 7.24567,0 0,7.2457 0,7.24565 -7.24567,0 -7.24568,0 0,-7.24565 z m 12.42116,0 0,-5.17549 -5.17548,0 -5.17548,0 0,5.17549 0,5.17546 5.17548,0 5.17548,0 0,-5.17546 z m -8.28077,0 0,-3.10529 3.10529,0 3.10529,0 0,3.10529 0,3.10528 -3.10529,0 -3.10529,0 0,-3.10528 z m -41.40384,-4.14042 0,-1.03507 1.0351,0 1.03509,0 0,1.03507 0,1.03513 -1.03509,0 -1.0351,0 0,-1.03513 z m 4.14038,-1.03507 0,-2.07021 1.0351,0 1.03509,0 0,2.07021 0,2.0702 -1.03509,0 -1.0351,0 0,-2.0702 z m 14.49135,-1.03514 0,-1.03507 1.03509,0 1.0351,0 0,1.03507 0,1.03514 -1.0351,0 -1.03509,0 0,-1.03514 z"
+       id="path3073"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

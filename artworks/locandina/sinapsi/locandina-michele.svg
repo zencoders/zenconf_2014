@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="1488.189"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="locandina-michele.svg"
+   inkscape:export-filename="/home/sinapsi/Scrivania/progetti/siti/zencoders/zenconf_2014/artworks/locandina-michele.png"
+   inkscape:export-xdpi="300.01077"
+   inkscape:export-ydpi="300.01077">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3096">
+      <stop
+         style="stop-color:#c8b7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3098" />
+      <stop
+         style="stop-color:#c8b7b7;stop-opacity:0;"
+         offset="1"
+         id="stop3100" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3096"
+       id="radialGradient3872"
+       cx="667.30652"
+       cy="270.46509"
+       fx="667.30652"
+       fy="270.46509"
+       r="391.40417"
+       gradientTransform="matrix(1.8515544,-1.3237356e-8,0,0.08652824,-89.247116,497.91831)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="filter3999"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter3999-0"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001-0"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003-3"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4891"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4893"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4895"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter3999-1"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4001-3"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4003-34"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4891-2"
+       inkscape:label="Glow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Glow of object's own color at the edges"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4893-9"
+         stdDeviation="5"
+         result="result91" />
+      <feComposite
+         id="feComposite4895-3"
+         in2="result91"
+         in="SourceGraphic"
+         operator="over" />
+    </filter>
+    <filter
+       id="filter4126"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4128"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4130"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4779"
+       x="-0.06860479"
+       width="1.1372097"
+       y="-0.42056006"
+       height="1.8411201">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="17.443725"
+         id="feGaussianBlur4781" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32"
+     inkscape:cx="-28.465019"
+     inkscape:cy="697.46738"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="691"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="mm" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="sfondo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(934.18601,1974.9708)"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3436"
+       width="1059.375"
+       height="206.25"
+       x="-940.43604"
+       y="-689.90686" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect3099-3"
+       width="1052.342"
+       height="910.30157"
+       x="-934.17596"
+       y="-1600.3979" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3099"
+       width="1052.3416"
+       height="380.98682"
+       x="-934.17572"
+       y="-1974.9708" />
+    <text
+       xml:space="preserve"
+       style="font-size:30.01062012px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-440.35028"
+       y="-1938.9293"
+       id="text3014-4-1-5-3-8"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+       inkscape:export-xdpi="89.984406"
+       inkscape:export-ydpi="89.984406"><tspan
+         sodipodi:role="line"
+         id="tspan3016-7-2-1-7-2"
+         x="-431.32361"
+         y="-1938.9293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                       with open('ZenCodes.                                  </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1901.416"
+         id="tspan3018-9-8-7-7-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                 `num` in numbers    synchronized                            </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1863.9028"
+         id="tspan3020-9-0-1-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                             datetime d      glob.      sys.argv[2] .                        </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1826.3895"
+         id="tspan3022-0-0-6-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                          def myclass   `..` @@oscla   org.    .  class {                    </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1788.8762"
+         id="tspan3024-5-5-4-1-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                       displ  hooks(   public static void   ma     functor:                  </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1751.3629"
+         id="tspan3026-2-7-7-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                     $myclass-&gt;method(  impport sys, os.pipe `    @param name`               </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1713.8496"
+         id="tspan3028-9-4-5-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                   fcl   if(system(cmd) myc.  /de   `  $card(  array(&quot;a&quot;   srand             </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1676.3364"
+         id="tspan3030-6-2-0-3-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                 format  lists:  ++:   conc    ++ &quot;my  an    WHERE  for(   == myi            </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1638.8231"
+         id="tspan3032-3-6-6-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">               `sys:  myvalue(myvalue) sys.t    Console.W   try{    rais     using           </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1601.3098"
+         id="tspan3034-9-2-6-2-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">              connec  SELECT * FROM table mycnf  acco desc and or selector::clas  at         </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1563.7966"
+         id="tspan3036-8-0-7-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">             openldap string  sys.   print &quot;zenc der &quot; { 'a':   `ls -l` &gt;  appe &amp;firs        </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1526.2833"
+         id="tspan3038-5-1-8-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">            import Tkinter    paste( $obh  &amp;a or it myval  bro roll:   :: [] require a       </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1488.77"
+         id="tspan3040-6-4-4-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">           case `` super. +y  &lt;svg x=&quot;100&quot;&gt;   expr    say &quot; %rooms 1  --account fb-  yy      </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1451.2567"
+         id="tspan3042-9-5-0-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          proc     meth Animate =&gt; send(D, open)     putd    EndIf 10  whi    myc`  cont     </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1413.7434"
+         id="tspan3044-2-3-1-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         and     main (--) import loop $$ or  end onload   UNION WITH tab    timer 150 *2    </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1376.2302"
+         id="tspan3046-2-6-9-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         end. begin True  GtkLabel *label    doto partition te    let auto  i&lt;- (i + d ) ;   </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1338.7169"
+         id="tspan3048-2-4-2-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        .mushup ``/.   ^/zenc/    myclass-&gt;her flv    op             &lt;&gt; element &gt;&gt; 71   or   </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1301.2036"
+         id="tspan3050-0-1-8-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        QFileDi   :   and  ..    with myc   toA  channel::bo    myc isEmpty a  not   bodt;  </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1263.6904"
+         id="tspan3052-9-7-1-8-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        class T   public pol    str    mycalc d   pt &amp;&amp;a     *i fc  add                ^ac  </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1226.1771"
+         id="tspan3054-6-5-6-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        ::ZenCoders::core::namespac   boost::function st  f = std:   ;;      int     assert </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1188.6638"
+         id="tspan3056-4-1-6-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        cou   &lt;&lt; endl   public genera    #include &quot;b ost   ::ac myna  const cast&lt;char*&gt; mys </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1151.1505"
+         id="tspan3058-3-5-3-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        &amp;ac   size_t   return ran  int (*getNextValue)(void) ff   double  sa_family_t famil </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32358"
+         y="-1113.6372"
+         id="tspan3060-3-9-2-4-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        pu         a   do puts(&quot;       ac    int main(int argc, char*    &quot;%5d    struct nam </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1076.124"
+         id="tspan3062-2-5-3-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        cs                float       for     typedef     enum  puts             getchar()   </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1038.6107"
+         id="tspan3064-3-6-2-3-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">        if(                         else      #define      fp    FILE* f           char* s   </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-1001.0975"
+         id="tspan3066-4-4-5-6-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         i++                                  strcat(            %s                    int   </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-963.58417"
+         id="tspan3068-8-2-13-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">         31]                                  total+=                                  do    </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-926.07092"
+         id="tspan3070-6-3-8-5-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          }do                                 while(1)                                sle    </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-888.55762"
+         id="tspan3072-3-7-6-1-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">          getc                               strcpy( a                               for     </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-851.04437"
+         id="tspan3074-4-2-9-5-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">           prin                             scanf(%d, &amp;                             get      </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-813.53107"
+         id="tspan3076-3-4-1-0-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">             int                       void myfunc(int par                       retu        </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-776.01782"
+         id="tspan3078-0-0-5-8-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">               BEQ                 BGEZAL R1 10 ANDI R1 R2 1                    SYS          </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-738.50452"
+         id="tspan3080-4-1-08-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                XOR               SYSCAL 5 SLTIU   MFLO 15 SW                 JAL            </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-700.99127"
+         id="tspan3082-2-7-0-7-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                  BNE           BLTZAL R1 1 LUI   001 NOOP MULTU            SLLV             </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-663.47797"
+         id="tspan3084-2-0-0-0-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                    MOV R1     ADD R1 R2  JUMP   10 1001 BEQ R1 R2 1      AND                </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-625.96472"
+         id="tspan3086-9-8-5-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                       1101  1010001100  111 001 01  1010 101100 1001   100                  </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-588.45142"
+         id="tspan3088-7-4-2-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                         110110 100   0  01  101 01100 100 100 1000100011                    </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-550.93817"
+         id="tspan3090-3-6-63-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                            11101001001  00   11  100    11  10100010                        </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-513.42487"
+         id="tspan3092-8-0-9-8-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                000101001001 10  1001    101000101                           </tspan><tspan
+         sodipodi:role="line"
+         x="-431.32361"
+         y="-475.91159"
+         id="tspan3094-0-2-6-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace">                                     010010010010110101001010                              </tspan></text>
+    <rect
+       style="opacity:0.63880017;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3212"
+       width="1049.4329"
+       height="219.01785"
+       x="-931.61603"
+       y="-689.35327" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="testata">
+    <g
+       transform="matrix(1.205844,0,0,1.205844,1018.1714,2354.8222)"
+       id="g3123">
+      <path
+         inkscape:export-ydpi="89.984406"
+         inkscape:export-xdpi="89.984406"
+         inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+         transform="matrix(0.61041803,0,0,0.62737409,-346.08477,-2237.0059)"
+         d="m 170,633.07648 c 0,31.95362 -25.90352,57.85714 -57.85714,57.85714 -31.953618,0 -57.857143,-25.90352 -57.857143,-57.85714 0,-31.95362 25.903525,-57.85715 57.857143,-57.85715 31.95362,0 57.85714,25.90353 57.85714,57.85715 z"
+         sodipodi:ry="57.857143"
+         sodipodi:rx="57.857143"
+         sodipodi:cy="633.07648"
+         sodipodi:cx="112.14286"
+         id="path3993-6-0-4-2"
+         style="fill:#ffffff"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="89.984406"
+         inkscape:export-xdpi="89.984406"
+         inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+         sodipodi:linespacing="125%"
+         id="text3014-4-1-5-3"
+         y="-1872.9478"
+         x="-280.36615"
+         style="font-size:1.369192px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           y="-1872.9478"
+           x="-279.95432"
+           id="tspan3016-7-2-1-7"
+           sodipodi:role="line">                                       with open('ZenCodes.                                  </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3018-9-8-7-7"
+           y="-1871.2362"
+           x="-279.95432"
+           sodipodi:role="line">                                 `num` in numbers    synchronized                            </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3020-9-0-1-7"
+           y="-1869.5248"
+           x="-279.95432"
+           sodipodi:role="line">                             datetime d      glob.      sys.argv[2] .                        </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3022-0-0-6-0"
+           y="-1867.8132"
+           x="-279.95432"
+           sodipodi:role="line">                          def myclass   `..` @@oscla   org.    .  class {                    </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3024-5-5-4-1"
+           y="-1866.1018"
+           x="-279.95432"
+           sodipodi:role="line">                       displ  hooks(   public static void   ma     functor:                  </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3026-2-7-7-0"
+           y="-1864.3903"
+           x="-279.95432"
+           sodipodi:role="line">                     $myclass-&gt;method(  impport sys, os.pipe `    @param name`               </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3028-9-4-5-9"
+           y="-1862.6788"
+           x="-279.95432"
+           sodipodi:role="line">                   fcl   if(system(cmd) myc.  /de   `  $card(  array(&quot;a&quot;   srand             </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3030-6-2-0-3"
+           y="-1860.9673"
+           x="-279.95432"
+           sodipodi:role="line">                 format  lists:  ++:   conc    ++ &quot;my  an    WHERE  for(   == myi            </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3032-3-6-6-7"
+           y="-1859.2559"
+           x="-279.95432"
+           sodipodi:role="line">               `sys:  myvalue(myvalue) sys.t    Console.W   try{    rais     using           </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3034-9-2-6-2"
+           y="-1857.5443"
+           x="-279.95432"
+           sodipodi:role="line">              connec  SELECT * FROM table mycnf  acco desc and or selector::clas  at         </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3036-8-0-7-6"
+           y="-1855.8329"
+           x="-279.95432"
+           sodipodi:role="line">             openldap string  sys.   print &quot;zenc der &quot; { 'a':   `ls -l` &gt;  appe &amp;firs        </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3038-5-1-8-3"
+           y="-1854.1213"
+           x="-279.95432"
+           sodipodi:role="line">            import Tkinter    paste( $obh  &amp;a or it myval  bro roll:   :: [] require a       </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3040-6-4-4-0"
+           y="-1852.4099"
+           x="-279.95432"
+           sodipodi:role="line">           case `` super. +y  &lt;svg x=&quot;100&quot;&gt;   expr    say &quot; %rooms 1  --account fb-  yy      </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3042-9-5-0-7"
+           y="-1850.6984"
+           x="-279.95432"
+           sodipodi:role="line">          proc     meth Animate =&gt; send(D, open)     putd    EndIf 10  whi    myc`  cont     </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3044-2-3-1-0"
+           y="-1848.9869"
+           x="-279.95432"
+           sodipodi:role="line">         and     main (--) import loop $$ or  end onload   UNION WITH tab    timer 150 *2    </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3046-2-6-9-9"
+           y="-1847.2754"
+           x="-279.95432"
+           sodipodi:role="line">         end. begin True  GtkLabel *label    doto partition te    let auto  i&lt;- (i + d ) ;   </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3048-2-4-2-2"
+           y="-1845.564"
+           x="-279.95432"
+           sodipodi:role="line">        .mushup ``/.   ^/zenc/    myclass-&gt;her flv    op             &lt;&gt; element &gt;&gt; 71   or   </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3050-0-1-8-9"
+           y="-1843.8524"
+           x="-279.95432"
+           sodipodi:role="line">        QFileDi   :   and  ..    with myc   toA  channel::bo    myc isEmpty a  not   bodt;  </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3052-9-7-1-8"
+           y="-1842.141"
+           x="-279.95432"
+           sodipodi:role="line">        class T   public pol    str    mycalc d   pt &amp;&amp;a     *i fc  add                ^ac  </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3054-6-5-6-0"
+           y="-1840.4294"
+           x="-279.95432"
+           sodipodi:role="line">        ::ZenCoders::core::namespac   boost::function st  f = std:   ;;      int     assert </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3056-4-1-6-2"
+           y="-1838.7179"
+           x="-279.95432"
+           sodipodi:role="line">        cou   &lt;&lt; endl   public genera    #include &quot;b ost   ::ac myna  const cast&lt;char*&gt; mys </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3058-3-5-3-7"
+           y="-1837.0065"
+           x="-279.95432"
+           sodipodi:role="line">        &amp;ac   size_t   return ran  int (*getNextValue)(void) ff   double  sa_family_t famil </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3060-3-9-2-4"
+           y="-1835.2949"
+           x="-279.95432"
+           sodipodi:role="line">        pu         a   do puts(&quot;       ac    int main(int argc, char*    &quot;%5d    struct nam </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3062-2-5-3-7"
+           y="-1833.5835"
+           x="-279.95432"
+           sodipodi:role="line">        cs                float       for     typedef     enum  puts             getchar()   </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3064-3-6-2-3"
+           y="-1831.8719"
+           x="-279.95432"
+           sodipodi:role="line">        if(                         else      #define      fp    FILE* f           char* s   </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3066-4-4-5-6"
+           y="-1830.1605"
+           x="-279.95432"
+           sodipodi:role="line">         i++                                  strcat(            %s                    int   </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3068-8-2-13-1"
+           y="-1828.449"
+           x="-279.95432"
+           sodipodi:role="line">         31]                                  total+=                                  do    </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3070-6-3-8-5"
+           y="-1826.7375"
+           x="-279.95432"
+           sodipodi:role="line">          }do                                 while(1)                                sle    </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3072-3-7-6-1"
+           y="-1825.026"
+           x="-279.95432"
+           sodipodi:role="line">          getc                               strcpy( a                               for     </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3074-4-2-9-5"
+           y="-1823.3146"
+           x="-279.95432"
+           sodipodi:role="line">           prin                             scanf(%d, &amp;                             get      </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3076-3-4-1-0"
+           y="-1821.603"
+           x="-279.95432"
+           sodipodi:role="line">             int                       void myfunc(int par                       retu        </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3078-0-0-5-8"
+           y="-1819.8916"
+           x="-279.95432"
+           sodipodi:role="line">               BEQ                 BGEZAL R1 10 ANDI R1 R2 1                    SYS          </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3080-4-1-08-2"
+           y="-1818.1801"
+           x="-279.95432"
+           sodipodi:role="line">                XOR               SYSCAL 5 SLTIU   MFLO 15 SW                 JAL            </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3082-2-7-0-7"
+           y="-1816.4686"
+           x="-279.95432"
+           sodipodi:role="line">                  BNE           BLTZAL R1 1 LUI   001 NOOP MULTU            SLLV             </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3084-2-0-0-0"
+           y="-1814.7571"
+           x="-279.95432"
+           sodipodi:role="line">                    MOV R1     ADD R1 R2  JUMP   10 1001 BEQ R1 R2 1      AND                </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3086-9-8-5-5"
+           y="-1813.0457"
+           x="-279.95432"
+           sodipodi:role="line">                       1101  1010001100  111 001 01  1010 101100 1001   100                  </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3088-7-4-2-9"
+           y="-1811.3341"
+           x="-279.95432"
+           sodipodi:role="line">                         110110 100   0  01  101 01100 100 100 1000100011                    </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3090-3-6-63-9"
+           y="-1809.6227"
+           x="-279.95432"
+           sodipodi:role="line">                            11101001001  00   11  100    11  10100010                        </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3092-8-0-9-8"
+           y="-1807.9111"
+           x="-279.95432"
+           sodipodi:role="line">                                000101001001 10  1001    101000101                           </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           id="tspan3094-0-2-6-7"
+           y="-1806.1996"
+           x="-279.95432"
+           sodipodi:role="line">                                     010010010010110101001010                              </tspan></text>
+      <text
+         inkscape:export-ydpi="89.984406"
+         inkscape:export-xdpi="89.984406"
+         inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+         sodipodi:linespacing="125%"
+         id="text3995-1-5-0-4"
+         y="-1805.6077"
+         x="-686.03259"
+         style="font-size:150.99650574px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+           y="-1805.6077"
+           x="-686.03259"
+           id="tspan3997-7-1-2-7"
+           sodipodi:role="line">zenc nf</tspan></text>
+      <text
+         inkscape:export-ydpi="89.984406"
+         inkscape:export-xdpi="89.984406"
+         inkscape:export-filename="/home/origama/temp/zencoders.github.com/zenconf/2014/logo_white.png"
+         sodipodi:linespacing="125%"
+         id="text4240-6-6-4-0"
+         y="-1701.6555"
+         x="-515.33051"
+         style="font-size:90.3152771px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+           y="-1701.6555"
+           x="-515.33051"
+           id="tspan4242-7-3-7-6"
+           sodipodi:role="line">2014</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3073"
+         d="m -755.00839,-1812.6899 0,-7.2457 7.24567,0 7.24568,0 0,7.2457 0,7.2457 -7.24568,0 -7.24567,0 0,-7.2457 z m 12.42115,0 0,-5.1755 -5.17548,0 -5.17548,0 0,5.1755 0,5.1755 5.17548,0 5.17548,0 0,-5.1755 z m -8.28076,0 0,-3.1053 3.10528,0 3.10529,0 0,3.1053 0,3.1053 -3.10529,0 -3.10528,0 0,-3.1053 z m 12.42115,2.0702 0,-5.1755 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.0701 0,-2.0702 -4.14039,0 -4.14038,0 0,-2.0702 0,-2.0702 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.0702 0,-2.0702 -3.10529,0 -3.10529,0 0,5.1755 0,5.1755 -1.03509,0 -1.0351,0 0,-5.1755 0,-5.1755 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.035 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,2.0702 0,2.0702 2.0702,0 2.07019,0 0,2.0702 0,2.0701 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.0701 -1.03509,0 -1.0351,0 0,-3.1053 0,-3.1053 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.0702 0,-2.0702 5.17548,0 5.17548,0 0,2.0702 0,2.0702 2.07019,0 2.0702,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.035 0,-1.0352 3.10529,0 3.10528,0 0,1.0352 0,1.035 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 2.07019,0 2.0702,0 0,2.0702 0,2.0702 -1.0351,0 -1.0351,0 0,2.0702 0,2.0702 5.17549,0 5.17548,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.0702 0,-2.0702 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.035 0,-1.0352 1.0351,0 1.0351,0 0,-1.0351 0,-1.035 -1.0351,0 -1.0351,0 0,-1.0352 0,-1.035 -1.03509,0 -1.0351,0 0,-1.0352 0,-1.035 1.0351,0 1.03509,0 0,1.035 0,1.0352 1.0351,0 1.0351,0 0,-1.0352 0,-1.035 1.03509,0 1.0351,0 0,1.035 0,1.0352 1.0351,0 1.03509,0 0,-1.0352 0,-1.035 1.0351,0 1.03509,0 0,1.035 0,1.0352 1.0351,0 1.03509,0 0,1.035 0,1.0352 -1.03509,0 -1.0351,0 0,1.035 0,1.0351 1.0351,0 1.03509,0 0,1.0352 0,1.035 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,2.0702 0,2.0701 1.0351,0 1.0351,0 0,-2.0701 0,-2.0702 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.035 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,1.0351 0,1.0351 2.07019,0 2.0702,0 0,1.0351 0,1.035 1.03509,0 1.0351,0 0,-2.0701 0,-2.0702 1.03509,0 1.0351,0 0,2.0702 0,2.0701 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,-2.0702 0,-2.0702 -2.0702,0 -2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -3.10528,0 -3.10529,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 2.0702,0 2.07019,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -3.10529,0 -3.10529,0 0,1.0351 0,1.0351 -4.14039,0 -4.14038,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.0702,0 0,-2.0702 0,-2.0702 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.035 0,-1.0351 -1.03509,0 -1.0351,0 0,4.1403 0,4.1404 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,2.0702 0,2.0702 -2.07019,0 -2.07019,0 0,-3.1053 0,-3.1053 -1.03509,0 -1.0351,0 0,3.1053 0,3.1053 -1.03509,0 -1.0351,0 0,-5.1755 z m 18.63173,0 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 z m 20.70192,-2.0702 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,-1.0351 z m -20.70192,-2.0702 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 4.14038,0 4.14039,0 0,-1.0351 0,-1.0351 -3.10529,0 -3.10529,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,-2.0701 0,-2.0702 1.0351,0 1.03509,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,1.0351 0,1.0351 2.07019,0 2.0702,0 0,-3.1053 0,-3.1053 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 -3.10528,0 -3.10529,0 0,-1.0351 0,-1.0351 2.07019,0 2.07019,0 0,-3.1053 0,-3.1053 1.0351,0 1.03509,0 0,2.0702 0,2.0702 1.0351,0 1.0351,0 0,-3.1053 0,-3.1053 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-2.0701 0,-2.0702 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -3.10529,0 -3.10529,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 4.14038,0 4.14039,0 0,-1.0351 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -3.10528,0 -3.10529,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -2.07019,0 -2.0702,0 0,-2.0702 0,-2.0702 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.0702,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.035 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -3.1053,0 -3.10528,0 0,1.0351 0,1.0351 5.17548,0 5.17548,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 2.07019,0 2.0702,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,2.0702 0,2.0702 3.10529,0 3.10529,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 3.10529,0 3.10529,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,1.0351 0,1.035 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,-1.0351 z m -6.21058,-10.3509 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 -1.03509,0 -1.0351,0 0,-2.0702 0,-2.0702 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-5.1755 0,-5.1754 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 3.10529,0 3.10529,0 0,1.035 0,1.0351 -1.0351,0 -1.0351,0 0,2.0702 0,2.0702 3.10529,0 3.10529,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-2.0702 0,-2.0701 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,2.0702 0,2.0702 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 5.17548,0 5.17548,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,3.1052 0,3.1053 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 -2.07019,0 -2.0702,0 0,-2.0702 0,-2.0702 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 12.42115,-6.2106 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 3.10529,0 3.10528,0 0,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.0351 -2.07019,0 -2.07019,0 0,2.0702 0,2.0702 -1.0351,0 -1.03509,0 0,-2.0702 0,-2.0702 -2.0702,0 -2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-2.0702 0,-2.0701 -1.0351,0 -1.03509,0 0,3.1052 0,3.1053 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -3.10529,0 -3.10529,0 0,1.0351 0,1.0351 4.14039,0 4.14038,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 z m -2.07019,-2.0702 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 4.14039,-1.0351 0,-2.0702 -3.10529,0 -3.10529,0 0,-1.0351 0,-1.0351 2.07019,0 2.07019,0 0,-1.0351 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,-2.0702 z m -20.70193,-6.2106 0,-2.0702 -1.03509,0 -1.0351,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,-2.0702 z m -2.07019,11.3861 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m -6.21057,-20.7019 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 z m 6.21057,-3.1053 0,-2.0702 1.0351,0 1.03509,0 0,2.0702 0,2.0702 -1.03509,0 -1.0351,0 0,-2.0702 z m 28.98269,38.2985 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m -18.63173,-2.0702 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m 26.9125,-2.0701 0,-3.1053 -3.10529,0 -3.10529,0 0,3.1053 0,3.1052 3.10529,0 3.10529,0 0,-3.1052 z m -4.14039,0 0,-1.0352 1.0351,0 1.0351,0 0,1.0352 0,1.035 -1.0351,0 -1.0351,0 0,-1.035 z m -33.12307,-2.0702 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m -6.21057,-4.1404 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 0,-1.0351 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,1.0351 0,1.0351 2.07019,0 2.0702,0 0,-1.0351 z m -6.21058,-26.9125 0,-1.0351 -2.07019,0 -2.07019,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 z m 39.33365,-4.1404 0,-1.0351 -2.07019,0 -2.07019,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,-2.0702 0,-2.0702 1.0351,0 1.03509,0 0,-3.1053 0,-3.1052 1.0351,0 1.03509,0 0,-1.0352 0,-1.035 -1.03509,0 -1.0351,0 0,1.035 0,1.0352 -1.03509,0 -1.0351,0 0,-1.0352 0,-1.035 -1.0351,0 -1.03509,0 0,1.035 0,1.0352 1.03509,0 1.0351,0 0,1.035 0,1.0351 -1.0351,0 -1.03509,0 0,2.0702 0,2.0702 -2.0702,0 -2.07019,0 0,2.0702 0,2.0702 1.0351,0 1.03509,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 2.07019,0 2.07019,0 0,-1.0351 z m -6.21058,-4.1404 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-1.0351 z m -20.70192,0 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m 4.14038,0 0,-1.0351 -1.03509,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m -20.70191,37.2635 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 z m 0,-4.1404 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,-1.0351 z m -4.14039,-10.351 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m 62.10576,-12.4211 0,-1.0351 1.0351,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-1.0351 z m 2.0702,-5.1755 0,-2.0702 1.03509,0 1.0351,0 0,1.0351 0,1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -2.07019,0 -2.07019,0 0,-2.0702 z m -4.14039,-1.0351 0,-1.0351 1.0351,0 1.03509,0 0,1.0351 0,1.0351 -1.03509,0 -1.0351,0 0,-1.0351 z m -31.05288,-3.1053 0,-2.0702 1.0351,0 1.03509,0 0,-2.0702 0,-2.0702 -1.03509,0 -1.0351,0 0,-1.0351 0,-1.0351 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -1.0351,0 -1.0351,0 0,-2.0702 0,-2.0701 1.0351,0 1.0351,0 0,-1.0352 0,-1.035 -1.0351,0 -1.0351,0 0,-1.0352 0,-1.0351 2.0702,0 2.07019,0 0,1.0351 0,1.0352 1.0351,0 1.03509,0 0,-1.0352 0,-1.0351 1.0351,0 1.0351,0 0,4.1405 0,4.1403 1.03509,0 1.0351,0 0,-1.0351 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0351 -1.0351,0 -1.03509,0 0,3.1053 0,3.1053 -1.0351,0 -1.03509,0 0,1.0351 0,1.0351 -2.0702,0 -2.07019,0 0,-2.0702 z m 4.14039,-1.0351 0,-1.0351 -1.0351,0 -1.0351,0 0,1.0351 0,1.0351 1.0351,0 1.0351,0 0,-1.0351 z m -2.0702,-8.2808 0,-1.035 -1.03509,0 -1.0351,0 0,1.035 0,1.0351 1.0351,0 1.03509,0 0,-1.0351 z m -31.05288,2.0702 0,-7.2457 7.24567,0 7.24568,0 0,7.2457 0,7.2457 -7.24568,0 -7.24567,0 0,-7.2457 z m 12.42115,0 0,-5.1754 -5.17548,0 -5.17548,0 0,5.1754 0,5.1755 5.17548,0 5.17548,0 0,-5.1755 z m -8.28076,0 0,-3.1052 3.10528,0 3.10529,0 0,3.1052 0,3.1053 -3.10529,0 -3.10528,0 0,-3.1053 z m 49.6846,0 0,-7.2457 7.24568,0 7.24567,0 0,7.2457 0,7.2457 -7.24567,0 -7.24568,0 0,-7.2457 z m 12.42116,0 0,-5.1754 -5.17548,0 -5.17548,0 0,5.1754 0,5.1755 5.17548,0 5.17548,0 0,-5.1755 z m -8.28077,0 0,-3.1052 3.10529,0 3.10529,0 0,3.1052 0,3.1053 -3.10529,0 -3.10529,0 0,-3.1053 z m -41.40384,-4.1404 0,-1.035 1.0351,0 1.03509,0 0,1.035 0,1.0352 -1.03509,0 -1.0351,0 0,-1.0352 z m 4.14038,-1.035 0,-2.0703 1.0351,0 1.03509,0 0,2.0703 0,2.0702 -1.03509,0 -1.0351,0 0,-2.0702 z m 14.49135,-1.0352 0,-1.0351 1.03509,0 1.0351,0 0,1.0351 0,1.0352 -1.0351,0 -1.03509,0 0,-1.0352 z"
+         style="fill:#ffffff" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4868"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Andale Mono;-inkscape-font-specification:Andale Mono Bold"
+       transform="matrix(1.4975883,0,0,1.4975883,-234.93334,-192.10839)"><flowRegion
+         id="flowRegion4870"><rect
+           id="rect4872"
+           width="496.64792"
+           height="313.19138"
+           x="257.14285"
+           y="828.18994"
+           style="font-weight:bold;fill:#ffffff;-inkscape-font-specification:Andale Mono Bold" /></flowRegion><flowPara
+         id="flowPara4874"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Andale Mono Bold">Aula magna di ingegneria</flowPara><flowPara
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Andale Mono Bold"
+         id="flowPara4896">(edificio della didattica) </flowPara><flowPara
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Andale Mono Bold"
+         id="flowPara4900">Cittadella Universitaria</flowPara><flowPara
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Andale Mono Bold"
+         id="flowPara5033">Viale A. Doria 6</flowPara><flowPara
+         style="font-size:28px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Monospace;-inkscape-font-specification:Andale Mono Bold"
+         id="flowPara4904" /><flowPara
+         id="flowPara4876" /><flowPara
+         id="flowPara4878" /><flowPara
+         id="flowPara4880" /><flowPara
+         id="flowPara5031" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:46.22534561px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Courier 10 Pitch Bold"
+       x="528.44116"
+       y="818.74738"
+       id="text5015"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="528.44116"
+         y="818.74738"
+         id="tspan5019"
+         style="font-size:52.82896423px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold">Mercoledi 4 Giugno 2014</tspan><tspan
+         sodipodi:role="line"
+         x="528.44116"
+         y="884.78357"
+         id="tspan5023"
+         style="font-size:52.82896423px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold">09:00 - 14:00</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="testi">
+    <text
+       xml:space="preserve"
+       style="font-size:147.01184082px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+       x="526.57068"
+       y="465.83972"
+       id="text5039"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="540.72058"
+         y="465.83972"
+         style="font-size:47.04379272px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+         id="tspan3192">Evento dedicato a tutti gli </tspan><tspan
+         sodipodi:role="line"
+         x="526.57068"
+         y="524.64447"
+         style="font-size:47.04379272px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+         id="tspan3206">appassionati di informatica</tspan><tspan
+         sodipodi:role="line"
+         x="526.57068"
+         y="583.44922"
+         style="font-size:47.04379272px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+         id="tspan5055">Talk da esperti nel setore I.T.</tspan><tspan
+         sodipodi:role="line"
+         x="526.57068"
+         y="642.25397"
+         style="font-size:47.04379272px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+         id="tspan3194">sulle migliori tecnologie usate</tspan><tspan
+         sodipodi:role="line"
+         x="526.57068"
+         y="701.05872"
+         style="font-size:47.04379272px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+         id="tspan3202">dalle grandi aziende</tspan><tspan
+         sodipodi:role="line"
+         x="526.57068"
+         y="759.8634"
+         style="font-size:47.04379272px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Monospace;-inkscape-font-specification:Monospace"
+         id="tspan5051" /></text>
+    <flowRoot
+       transform="translate(3.4525757,9.2592297)"
+       xml:space="preserve"
+       id="flowRoot5248"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Andale Mono;-inkscape-font-specification:Monospace Bold"><flowRegion
+         id="flowRegion5250"><rect
+           id="rect5252"
+           width="1054.5992"
+           height="206.07112"
+           x="-4.0406103"
+           y="1286.1594"
+           style="font-size:50px;font-weight:bold;-inkscape-font-specification:Monospace Bold" /></flowRegion><flowPara
+         id="flowPara5254"
+         style="font-weight:bold;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">web: http://zencoders.org</flowPara><flowPara
+         id="flowPara5256"
+         style="font-weight:bold;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">email: hacklab@zencoders.org</flowPara><flowPara
+         style="font-weight:bold;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold"
+         id="flowPara3216"> IRC: #zencoders @ Freenode</flowPara></flowRoot>    <g
+       id="g3749"
+       transform="translate(1.774826,-30)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5015-9"
+         y="1029.828"
+         x="529.57214"
+         style="font-size:70.95728302px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Courier 10 Pitch Bold"
+         xml:space="preserve"><tspan
+           style="font-size:81.09403992px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch Bold"
+           id="tspan5023-3"
+           y="1029.828"
+           x="529.57214"
+           sodipodi:role="line">FREE ENTRY</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5223"
+         y="1072.8207"
+         x="771.52435"
+         style="font-size:215.36946106px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+           y="1072.8207"
+           x="771.52435"
+           id="tspan5225"
+           sodipodi:role="line">&lt;&lt;</tspan></text>
+      <text
+         transform="scale(-1,1)"
+         sodipodi:linespacing="125%"
+         id="text5223-0"
+         y="1072.8207"
+         x="-277.28818"
+         style="font-size:215.36946106px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+           y="1072.8207"
+           x="-277.28818"
+           id="tspan5225-0"
+           sodipodi:role="line">&lt;&lt;</tspan></text>
+    </g>
+  </g>
+</svg>
