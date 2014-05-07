@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="dieei.svg">
+   sodipodi:docname="dieei_logo.svg"
+   inkscape:export-filename="/home/origama/temp/zenconf_2014/artworks/locandina/logos/dieei_logo_new.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4">
     <filter
@@ -40,9 +43,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="341.83428"
-     inkscape:cy="-63.134447"
+     inkscape:zoom="1.979899"
+     inkscape:cx="161.67064"
+     inkscape:cy="18.43201"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -140,7 +143,7 @@
        y="213.34531" />
     <text
        xml:space="preserve"
-       style="font-size:40.48460388px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.9372549;stroke:#205c9e;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.9372549;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Unibit"
+       style="font-size:40.48460388000000165px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.93725490000000000;stroke:#205c9e;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.93725490000000000;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Unibit;stroke-linejoin:round;stroke-linecap:round;"
        x="126.26447"
        y="205.04121"
        id="text5589-4"
@@ -150,7 +153,7 @@
          id="tspan5591-2"
          x="126.26447"
          y="205.04121"
-         style="font-size:36.73978424px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:0.9372549;stroke:#205c9e;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.9372549;stroke-dasharray:none;font-family:Denemo;-inkscape-font-specification:Denemo">DIEEI</tspan></text>
+         style="font-size:36.73978423999999876px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:0.93725490000000000;stroke:#205c9e;stroke-width:2;stroke-miterlimit:0;stroke-opacity:0.93725490000000000;stroke-dasharray:none;font-family:Denemo;-inkscape-font-specification:Denemo;stroke-linejoin:round;stroke-linecap:round">DIEEI</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:43.30635834px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
