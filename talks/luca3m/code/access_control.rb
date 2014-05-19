@@ -1,16 +1,13 @@
 require 'redis'
+require 'sinatra'
 
-r = Redis.new
+$redis = Redis.new
 
-replies = r.pipelined do
-  r.client.call %w(SET access_control 0 EX 60 NX)
-  r.incr "access_control"
-end
-
-counter = replies[1]
-
-if counter <= 5
-  puts "Access granted"
-else
-  puts "Resource busy, try later"
+get "/" do
+  replies = $redis.pipelined do
+    $redis.client.call %w(SET access_control 0 EX 60 NX)
+    $redis.incr "access_control"
+  end
+  @counter = replies[1]
+  erb :index
 end

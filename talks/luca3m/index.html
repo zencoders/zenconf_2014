@@ -7,6 +7,19 @@
   </head>
   <body>
     <textarea id="source">
+name: empty
+layout: true
+
+---
+
+name: zenslide
+layout: true
+
+.hashtag[#zenluca3m]
+
+{{content}}
+
+---
 
 class: center, middle
 
@@ -20,60 +33,65 @@ Software Engineer @ A-Tono
 
 # Agenda
 
-1. Cos'è Redis
-2. Paradigma
-4. Esempi pratici
-5. Utilizzi reali
-6. Conclusioni
+1. What's Redis
+2. Paradigm
+4. Some examples
+5. Real use cases
+6. Conclusions
 
 ---
 
-# Cos'è Redis
+# What's Redis
 
-[Redis](http://redis.io) è un database all in memory. Tutte le operazioni sui dati
-vengono eseguite sulla memoria RAM.
+[Redis](http://redis.io) is a key-value database. It stores all our data
+in memory.
 
-Che fa pensare subito ad una cache... Ma non è così.
+You may say, it's a cache! But it's not true.
 
-Redis è uno storage **persistente**.
-
----
-
-# Vantaggi della RAM
-
-1. Le letture e le scritture hanno la stessa velocità
-2. Latenze di lettura/scrittura trascurabili
-3. Si può lavorare a singolo thread, semplificando molto il codice
+Redis is a **persistent** store.
 
 ---
 
-# Persistenza
+# RAM advantages
 
-Su Redis conta prima di tutto il dato in RAM, però garantisce anche la
-persistenza su disco, in due modi:
-
-1. Viene scritto un journal ogni secondo con tutte le modifiche
-2. Ogni N scritture in M tempo fa una snapshot completa della base di dati su disco
+1. Same speed for reads and writes
+2. Read/write latency is negligible
 
 ---
 
-# Paradigma
+# Persistency
 
-Redis usa un paradigma chiave-valore:
+On Redis, clients work with RAM data, but it guarantees persistence in two ways:
+
+1. Every second it writes a journal with last write commands
+
+--
+2. Every N writes in M time, it makes a snapshot of all db to disk
+
+---
+
+# Paradigm
+
+Redis is a key-value store:
 
 ```
-> SET pippo pluto
+> SET foo bar
 OK
-> GET pippo
-"pluto"
+> GET foo
+"bar"
 >
 ```
 
+???
+
+Open a redis shell and show something
+
 ---
 
-# Paradigma
+# Paradigm
 
-Le stringhe possono anche contenere numeri:
+Strings can also contain **numbers**, and Redis has specific commands for
+them:
 
 ```
 > SET number 0
@@ -87,9 +105,9 @@ OK
 
 ---
 
-# Paradigma
+# Paradigm
 
-Oppure ci sono anche strutture dati più complesse come i set:
+Or you can use more complex data structures, like **sets**:
 
 ```
 > SADD myset value1 value2
@@ -103,67 +121,68 @@ Oppure ci sono anche strutture dati più complesse come i set:
 ```
 
 ---
-# Impieghi
 
-1. Sistemi a code
-2. Storage configurazioni
-3. Dati a forte località temporale
+# Usages
+
+1. Task queues
+2. Realtime analitics
+3. Data with high time-locality
 4. Cache
 
 ---
 
-# Sistema a code
-
-Produttore:
-
-```
-LPUSH coda hello
-```
-
-Consumatore:
+# Task queue
+--
+Producer
 
 ```
-BRPOP coda 0
+LPUSH queue hello
+```
+--
+Consumer
+
+```
+BRPOP queue 0
 ```
 
 ---
 
-# Controllo accessi
+# Access counter
 
 ```
-SET access_control 0 EX 60 NX
-INCR access_control
+SET access_count 0 EX 60 NX
+INCR access_count
 ```
 
-Diamo l'accesso se `access_control` è minore o uguale al massimo consentito.
+On **access_count** key you will find always all access per minute.
 
 ---
 
-# Le aziende lo usano per..
+# Real world usages
 
-* Twitter per gestire le timeline
-* Pinterest per mantenere il grafo following/followers
-* A-Tono per gestire transazioni e configurazioni nel suo gateway SMS
-
----
-
-# Conclusioni
-
-Redis è un database fortemente diverso da tutti gli altri.
-
-Riesce in maniera unica a garantire elevate prestazioni e persistenza del dato.
+* Twitter uses it to store last timeline for each user
+* Pinterest uses Redis to store following/followers graph
+* A-Tono uses it to store transactions and configurations of it's SMS gateway
 
 ---
 
-class: center, middle
+# Conclusions
 
-# Fine
+Redis is a very interesting storage option.
+
+It ensures high performance and persistence of data in a unique way from all
+other databases.
 
 ---
 
-# Contatti
+template: empty
+class: the_end
 
-Email: [lucamarturana@gmail.com](mailto:lucamarturana@gmail.com)
+---
+
+# Contacts
+
+Mail: [lucamarturana@gmail.com](mailto:lucamarturana@gmail.com)
 
 Twitter: [@luca3m](http://twitter.com/luca3m)
 
