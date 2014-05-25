@@ -2,11 +2,16 @@ require 'redis'
 
 r = Redis.new
 name = ARGV[0]
+msgid=0
 
 loop do
-  msgid = r.incr "msgid"
-  msg = "hello #{msgid}, by #{name}"
+  # Compose message
+  msg = "hello #{msgid} by #{name}"
+  msgid+=1
+
+  # Publish it
   r.lpush "queue", msg
+
   puts "Produced: #{msg}"
   sleep 0.1
 end

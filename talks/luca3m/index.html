@@ -43,7 +43,7 @@ Software Engineer @ A-Tono
 
 # What's Redis
 
-[Redis](http://redis.io) is a key-value database. It stores all our data
+[Redis](http://redis.io) is a key-value database server. It stores all our data
 in memory.
 
 You may say, it's a cache! But it's not true.
@@ -52,10 +52,11 @@ Redis is a **persistent** store.
 
 ---
 
-# RAM advantages
+# RAM tradeoffs
 
 1. Same speed for reads and writes
 2. Read/write latency is negligible
+3. When process ends, everything is lost
 
 ---
 
@@ -63,7 +64,7 @@ Redis is a **persistent** store.
 
 On Redis, clients work with RAM data, but it guarantees persistence in two ways:
 
-1. Every second it writes a journal with last write commands
+1. Every second it writes an append-only file with last write commands
 
 --
 2. Every N writes in M time, it makes a snapshot of all db to disk
