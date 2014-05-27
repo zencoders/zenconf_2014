@@ -26,11 +26,12 @@ layout: false
 
 - What is Functional Programming?
 
+  - Why to use the functional paradigm?
   - Everything is an expression
-  - First class functions
   - Being expressive with higher order functions
-  - Option monad
-  - Pattern matching
+  - Case classes & pattern matching
+  - Typeclasses
+  - An example of purity
 
 - References
 ]
@@ -315,7 +316,7 @@ class Bird extends Animal with Flying {
   def call = "cheep"
 }
 
-val b = new Bumblebee
+val b = new Bird
 
 b.speak() // prints "cheep"
 b.fly() // prints "I'm flying!"
@@ -353,6 +354,40 @@ Hello.world() // prints "Hello world!"
 ```
 ]
 ---
+.left-column[
+  ## What is Scala?
+  ### Implicit conversions
+]
+.right-column[
+  Scala supports *implicit conversions* to enrich types by importing definitions
+  in scope.
+
+  An implicit conversion is a function that takes an argument of a type and returns
+  an argument of another type.
+
+  Implicit conversions will be applied at compile-time when referring to a method
+  or a property that doesn't exist in the base type but exists in the converted one.
+
+```scala
+class RichString(s: String) {
+  def twice = s + s
+}
+
+object RichString {
+  implicit def toRichString(s: String) =
+    new RichString(s)
+}
+
+object HelloTwice {
+  import RichString._
+
+  def main(args: Array[String]) {
+    println("Hello World!\n".twice)
+  }
+}
+```
+]
+---
 template: inverse
 
 ## What is Functional Programming?
@@ -378,7 +413,8 @@ the same value and perform no side effects. Side effects can be anything like:
 ]
 ---
 .left-column[
-  ## Why using the functional paradigm?
+  ## What is Functional Programming?
+  ### Why tu use the functional paradigm?
 ]
 .right-column[
 Even with this limitations functional languages are still Turing complete and can
