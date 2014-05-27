@@ -10,14 +10,39 @@ li {
   margin-bottom: 1em;
 }
 
+title {
+  text-shadow: 45px 45px 45px #CC0000;
+}
+
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
+  font-size: 3em;
 }
 
 h1 {
   margin-top: 0.3em;
   font-size: 2.6em;
+}
+
+.footer-left {
+  font-size: 0.6em;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.footer-right {
+  font-size: 0.6em;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.logo {
+  position: absolute;
+  left: 150px;
+  top: 150px;
 }
 
 .remark-slide-number {
@@ -29,17 +54,13 @@ h1 {
   background-size: cover;
 }
 
-.the_end .remark-slide-number {
-  display: none;
-}
-
 a {
   text-decoration: none;
 }
 
 .hashtag {
   position: absolute;
-  right: 20px;
-  top: 12px;
+  right: 40px;
+  top: 40px;
   font-size: 0.5em;
 }
