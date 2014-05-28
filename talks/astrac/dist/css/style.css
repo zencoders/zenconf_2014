@@ -109,3 +109,14 @@ code {
   float: right;
   padding-top: 2em;
 }
+
+p > .hashtag {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #444444;
+}
+
+.inverse p > .hashtag {
+  color: #BBBBBB;
+}

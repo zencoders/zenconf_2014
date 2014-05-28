@@ -10,11 +10,17 @@
 name: inverse
 layout: true
 class: center, middle, inverse
+.hashtag[#zenastrac]
+
 ---
 #Introduction to Scala and Functional Programming
 [Aldo Stracquadanio - Senior Developer @ Footfall123]
 ---
-layout: false
+name: default
+layout: true
+.hashtag[#zenastrac]
+
+---
 .left-column[
   ## Agenda
 ]
@@ -35,14 +41,11 @@ layout: false
 
 - What is Functional Programming?
 
-  - Why to use the functional paradigm?
+  - Benefits
   - Everything is an expression
   - Being expressive with higher order functions
   - Case classes & pattern matching
-  - Typeclasses
   - An example of purity
-
-- References
 ]
 ---
 .left-column[
@@ -230,6 +233,10 @@ layout: false
   foo("C") // prints "Bar: C - Baz: B"
   foo(baz = "D") // prints "Bar: A - Baz: D"
   ```
+
+  Despite having a `return` keyword, its use is discouraged. The value returned
+  by a function and in general the value of any block is the last value encountered
+  in the block.
 ]
 ---
 .left-column[
@@ -409,8 +416,9 @@ Functional Programming is a style of programming which models computations as
 the evaluation of expressions. The building blocks of Functional Programming are
 *pure functions*.
 
-A function is *pure* when given the same input arguments it will always return
-the same value and perform no side effects. Side effects can be anything like:
+A function is *pure* when it will not perform any side effects, thus giving the
+same output value for the same input arguments independently from when or how many
+times it has been invoked. Side effects can be anything like:
 
 - Reassigning a variable
 - Modifying a data structure in place
@@ -419,30 +427,69 @@ the same value and perform no side effects. Side effects can be anything like:
 - Printing to the console or reading user input
 - Reading from or writing to a file
 - Drawing on the screen
+
+**Functional programming is a restriction on how we write programs, but not on what
+programs we can express.**
 ]
 ---
 .left-column[
   ## What is Functional Programming?
-  ### Why tu use the functional paradigm?
+  ### Benefits
 ]
 .right-column[
-Even with this limitations functional languages are still Turing complete and can
-express everything that the imperative paradigm can.
+Programming by pure functions helps building software that is **easier to test** as
+side effects are separated from the business rules.
 
-**Functional programming is a restriction on how we write programs, but not on what
-programs we can express.**
+Programming by pure functions helps achieving **higher degrees of parallelism**: when
+state is immutable it can be safely shared between threads and processes without
+the need for locks.
 
-The reason for this paradigm reside in what we get when we give up on side effects
-and mutable state:
+Programming by pure functions helps being **concise and expressive** through higher order
+functions; as an example, given a list of objects of type Person, compare:
 
-- Functions are first-class values
-- High expressiveness through higher order functions
-- No mutable state and no side effects mean no critical areas when designing
-  concurrent systems
+```java
+List<String> names = new ArrayList<String>();
+for (Iterator<Person> it = persons.iterator(); it.hasNext(); ) {
+  names.add(it.next().getName());
+}
+```
 
-This last point is the main reason for this return of Functional Programming in
-the industry: as the Moore law is not applying any more to single core systems
-computation needs to be handled in parallel!
+```scala
+val names = persons.map(_.name)
+```
+
+A program written with pure functions is **easier to follow and to reason about**.
+
+Functional languages often exhibit **very advanced type systems** that help ensuring
+correctness.
+]
+---
+.left-column[
+## What is Functional Programming?
+### Everything is an expression
+]
+.right-column[
+]
+---
+.left-column[
+## What is Functional Programming?
+### Being expressive with higher order functions
+]
+.right-column[
+]
+---
+.left-column[
+## What is Functional Programming?
+### Case classes & pattern matching
+]
+.right-column[
+]
+---
+.left-column[
+## What is Functional Programming?
+### An example of purity
+]
+.right-column[
 ]
 ---
 name: last-page
