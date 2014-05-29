@@ -43,8 +43,9 @@ layout: true
 
   - Benefits
   - Everything is an expression
+  - Case classes
+  - Pattern matching
   - Being expressive with higher order functions
-  - Case classes & pattern matching
   - An example of purity
 ]
 ---
@@ -469,6 +470,183 @@ correctness.
 ### Everything is an expression
 ]
 .right-column[
+In Scala everything can be evaluated and attributed a type.
+
+As a consequence there is no `void` keyword, the return value of *imperative statements*
+has type `Unit` and is usually referred to as ().
+
+*Imperative statements* returning Unit are `while` loops, assignments and
+any function returning Unit.
+
+These two are equivalent and correspond to a program that doesn't do anything:
+
+```scala
+def main(args: Array[String]) { () }
+def main(args: Array[String]): Unit = ()
+```
+
+**Unit is the type to be returned when defining a function does something that
+is not pure**.
+
+In this sense it helps the developer to be *honest about types*.
+]
+---
+.left-column[
+## What is Functional Programming?
+### Everything is an expression
+]
+.right-column[
+Another interesting case are exceptions; how can this type-check?
+
+```scala
+def sqrt(x: Double): Double =
+  if (x < 0) throw new InvalidArgumentException("...")
+  else Math.sqrt(x)
+```
+
+The answer resides in the type returned by the `throw` keyword: `Nothing`.
+
+This type is provided by Scala and it is **the children of all the types**,
+which means that it can be used in place of any other type.
+
+A neat facility provided by the standard Scala library is the following:
+
+```scala
+def ??? = sys.error("An implementation is missing")
+```
+
+This is really useful when stubbing out functions:
+
+```scala
+def doSomething
+  (someArgs: SomeInputTypes): SomeResultType = ???
+```
+
+]
+---
+.left-column[
+## What is Functional Programming?
+### Case classes
+]
+.right-column[
+Scala achieves great conciseness when defining types for immutable objects through
+the *case class* construct.
+
+A case class with an empty body is defined as follows:
+
+```scala
+case class Person(name: String, age: Int)
+```
+
+Doing this Scala will provide for us:
+
+- An immutable Person class with two public properties (name and age)
+
+- A basic toString, equals and hashCode implementation
+
+- Functions on the Person instances to create updated copies of themselves
+
+- A factory function on the Person companion object
+
+- An extractor for pattern-matching over the class (more on this later)
+
+- Some more less frequently used facilities
+]
+---
+.left-column[
+## What is Functional Programming?
+### Case classes
+]
+.right-column[
+Some example usages of the `Person` case class:
+
+```scala
+// Use companion object factory method
+val alice = Person("Alice", 25)
+val bob = Person("Bob", 30)
+
+println(alice.name) // prints "Alice"
+println(alice.age) // prints "25"
+println(alice) // prints "Person(Alice, 25)"
+
+val alice2 = alice.copy(age = 26)
+
+println(alice2) // prints "Person(Alice, 26)"
+
+val bob2 = Person("Bob", 30)
+
+println(bob == bob2) // prints "True"
+println(bob == alice) // prints "False"
+println(alice == alice2) // prints "False"
+
+val set = Set(alice, bob)
+
+println(set.contains(alice)) // prints "True"
+println(set.contains(alice2)) // prints "False"
+```
+]
+---
+.left-column[
+## What is Functional Programming?
+### Option type
+]
+.right-column[
+In Scala the basic form of this looks like a switch statement. Let's take a simplified
+version of the definition of the standard Scala library for the `Option` type:
+
+```scala
+sealed trait Option[T]
+case class Some[T](value: T) extends Option[T]
+case class None extends Option[Nothing]
+```
+
+This can be used as follows:
+
+```scala
+def maybeParseInt(s: String): Option[Int] =
+  if (s.forAll(_.isNum)) Some(s.toInt)
+  else None
+```
+
+The power of this type is evident: it encodes in the type-system the fact that a
+value can be there or not.
+
+In most languages we would use `null`, giving space for the infamous
+`NullPointerException` which is the most common source of crashes.
+
+The actual option type has a *monadic interface* which makes it very easy and clean
+to work with it.
+]
+---
+.left-column[
+## What is Functional Programming?
+### Pattern matching
+]
+.right-column[
+In most functional programming languages it is important the concept of conditionally
+attribute a value to an expression by de-structuring data types via *pattern-matching*.
+
+Let's use the function that we defined while talking about the `Option` type and
+let's see how we can square an integer parsed by our function:
+
+```scala
+def squared(x: Option[Int]) = x match {
+  case Some(value) => value * value
+  case None => None
+}
+
+val x = maybeParseInt("2") // x = Some(2)
+val y = maybeParseInt("foo") // y = None
+
+println(squared(x)) // prints Some(4)
+println(squared(y)) // prints None
+```
+
+In real Scala anyway you could have done something like this to be more concise:
+
+```scala
+def squared(x: Option[Int]) = x.map(v => v * v)
+```
 ]
 ---
 .left-column[
@@ -476,13 +654,10 @@ correctness.
 ### Being expressive with higher order functions
 ]
 .right-column[
-]
----
-.left-column[
-## What is Functional Programming?
-### Case classes & pattern matching
-]
-.right-column[
+**An higher order function is a function that accepts as parameter another function**.
+
+This is another feature very common in functional languages and it helps achieving
+very high degrees of conciseness.
 ]
 ---
 .left-column[
