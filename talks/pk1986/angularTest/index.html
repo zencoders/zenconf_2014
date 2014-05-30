@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="project">
+<head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.8/angular-resource.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.8/angular-route.min.js"></script>
+	<script src="https://cdn.firebase.com/v0/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/0.5.0/angularfire.min.js"></script>
+	<script src="app.js"></script>
+	<style>
+		.main-view {
+			width: 500px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.list-item {
+			list-style: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-view">
+		<h2>JavaScript Projects</h2>
+		<div ng-view></div>
+	</div>
+</body>
+</html>
+
