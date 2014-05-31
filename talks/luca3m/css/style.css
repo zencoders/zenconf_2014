@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Droid Serif';
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 li {
@@ -43,6 +43,14 @@ h1 {
   position: absolute;
   left: 150px;
   top: 150px;
+}
+
+.remark-slide .remark-slide-content {
+  padding: 1em 2em 1em 2em;
+}
+
+.remark-code {
+  font-size: 1.5em;
 }
 
 .remark-slide-number {
