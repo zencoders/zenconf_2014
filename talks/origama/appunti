@@ -1,0 +1,134 @@
+---
+# Chi sono io e numidia
+---
+# L'importanza di uno standard sanitario
+---
+#What is HL7
+    HL7 RIM
+    HL7 v2 e v3 (xml, wire format)
+
+* Perchè è complicato?
+
+    (tempo medio di implementazioni di sistemi HL7)
+    
+    Poor market penetration
+    Possible causes:
+        Learning curve is steep
+        Development process is slow (try to cover all usecases)
+        Geared towards modeling, not implementation
+        Tools to develop, maintain & constrain are all custom
+        
+        V3 puts needs of the modeler before the needs of the implementer
+        Learning curve is too steep
+        Must significantly constrain to allow implementation
+        Tools to develop, maintain & constrain are all custom
+        Wire format is unstable
+        
+    Ad un certo punto iniziativa fresh look: What would healthcare exchange look like if we started from scratch using modern approaches?
+
+* Cosa è FHIR
+
+    Fast Health Interoperable Resources
+
+    FHIR Manifesto    
+        Focus on Implementers
+        Target support for common scenarios
+        Leverage cross-industry web technologies
+        Require human readability as base level of interoperability
+        Make content freely available
+        Support multiple paradigms & architectures
+
+    Design for the 80%, not 100%
+    Allow easy extension for the remaining 20% of elements
+    Focus publication on documenting what the implementer needs, not what the modelers thought or designers need to remember
+
+* Risorse FHIR
+
+  *  Build around the concept of “resources”
+        Small, discrete concepts that can be maintained independently
+        Similar to the concept of CMETs, but there’s only *one* model per resource
+        Can be individually designed, documented, exchanged and interpreted
+        100-150 total for all of healthcare.
+        Built-in extension mechanism
+        Extension is not a “dirty word” in FHIR
+    
+  *  Defined Structured Data
+        The logical, common contents of the resource
+        Mapped to formal definitions/RIM & other formats
+        Syntax (XML and JSON)
+  *  Extensions
+       -  Local requirements, but everyone can use
+       -  Published and managed
+  *  Narrative
+        Human readable
+
+* what kind of Resources
+
+    Administrative
+        Patient, Practitioner, Organization, Location, Coverage, Invoice
+    Clinical Concepts
+        Allergy, Condition, Family History, Care Plan
+    Infrastructure
+        Document, Message, Profile, Conformance*
+        
+* Patient Example
+
+* Human Readability
+    - CDA taught HL7 a very important lesson: "Even if the computers don’t understand 99% of what you’re sending, that’s ok if they can properly render it to a human clinician"
+    - This doesn’t just hold for documents – important for messages, services, etc.
+    - In FHIR, every resource is required to have a human-readable expression
+
+* Conformance
+    There’s a resource for documenting conformance to FHIR
+    Can be used for:
+      -  Stating how a specific system instance behaves
+      -  Defining how a software system is capable of behaving (including configuration options)
+      -  Identifying a desired set of behavior (e.g. RFP)
+      -  To declare themselves “FHIR Conformant”, a system must publish a Conformance instance
+
+* FHIR is FREE
+    License
+      - FHIR is © and ® HL7. The right to maintain FHIR remains vested in HL7
+      - You can redistribute FHIR
+      - You can create derivative specifications or implementation-related products and services
+      - Derivative Specifications cannot redefine what conformance to FHIR means
+      - You can't claim that HL7 or any of its members endorses your derived [thing] because it uses content from this specification
+      - Neither HL7 nor any of the contributors to this specification accept any liability for your use of FHIR
+
+* Paradigmi FHIR
+    There are four: REST, Documents, Messages, Services
+    
+    Regardless of paradigm the content is the same
+    This means it’s straight-forward to share content across paradigms
+        e.g. Receive a lab result in a message.  Package it in a discharge summary document
+    It also means constraints can be shared across paradigms
+        e.g. Define a profile for Blood Pressure and use it on resources in messages, documents, REST and services
+
+    *   REST
+            -  Simple, out-of-the-box interoperability
+            -  Leverage HTTP: GET, POST, etc.
+            -  Pre-defined operations
+            -  Create, Read, Update, Delete
+            -  Also: History, Read Version, Search, Updates, Validate, Conformance & Transaction
+            -  Works best where control resides on client side and trust relationship exists
+    *    Documents
+            -  Similar to CDA
+            -  Collection of resources bound together: Root is a “Composition” resource Just like CDA header
+            -  Sent as an ATOM feed
+            -  One context
+            -  Can be signed, authenticated, etc.
+    *    Messages
+            Similar to v2 and v3 messaging
+            Also a collection of resources as an ATOM feed
+            Allows request/response behavior with bundles for both request and response
+            Event-driven
+            e.g. Send lab order, get back result
+            Can be asynchronous
+    *    SOA
+            Do whatever you like 
+            (based on SOA principles)
+            Ultra complex workflows
+            Ultra simple workflows
+            Individual resources or collections (in Atom or other formats)
+            Use HTTP or use something else
+            Only constraint is that you’re passing around FHIR resources in some shape or manner
