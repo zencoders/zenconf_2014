@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(droidserif.css);
+@import url(kaffeesatz.css);
 
 body {
   font-family: 'Droid Serif';
@@ -127,6 +127,14 @@ p > .hashtag {
 
 .fhir-pic img {
   width:9em;
+}
+
+.numidia-pic {
+  width:100%;
+}
+.numidia-pic img {
+  vertical-align:middle;
+  width:5em;
 }
 
 .main-pic {

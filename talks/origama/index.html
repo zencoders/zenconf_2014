@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Introduction to Scala and Functional Programming</title>
+    <title>Healthcare information exchanging made possible</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -25,7 +25,7 @@ layout: true
 
 ###Who are you, dude?
 #Giuseppe Virzì
-##System Engineer @ Nu.M.I.D.I.A.
+##System Engineer @ .numidia-pic[![Alt text](images/numidia.png)]
 ---
 .left-column[
   ## Agenda
@@ -51,6 +51,7 @@ layout: true
         - Patient Example  
         - Conformance
     - Paradigms
+    - Examples
 ]
 ---
 .left-column[
@@ -164,7 +165,9 @@ evaluation** of health services
   ### HL7 : aestetic surgery
 ]
 .right-column[
-[TODO fresh look ]
+##Fresh look task force
+###January 2011, HL7 Board
+“what would we do if we were to revisit the healthcare interoperability space from scratch?”
 ]
 ---
 .left-column[
@@ -182,7 +185,7 @@ evaluation** of health services
 ]
 .right-column[
 ##ˈfaɪə(r)
-###Fast Health Interoperable Resources
+###IT-ers, everytime you decide an acronym's pronunciation
 
 .main-pic[![Alt text](images/bunny.jpg)]
 ]
@@ -258,13 +261,14 @@ evaluation** of health services
 .right-column[
 ##What kind of resources?
 
-  - Administrative
+  - **Administrative**
     - Patient, Practitioner, Organization, Location, Coverage, Invoice
-  - Clinical Concepts
+  - **Clinical Concepts**
     - Allergy, Condition, Family History, Care Plan
-  - Infrastructure
+  - **Infrastructure**
     - Document, Message, Profile, Conformance
 
+###Anyway, there will be little more then one hundred of them
 ]
 ---
 .left-column[
@@ -272,7 +276,36 @@ evaluation** of health services
   ### Resources
 ]
 .right-column[
-[TODO ... ]
+##Fisionomia
+###Each resource is made of
+  - **Metadata** - important information about the resource that is not part of the content model of the resource
+  - **Tags** - labels affixed to the resources that may be used to define additional operational behavior such as security, workflow, etc.
+  - **Resource Body**
+   - **Fields** - A base set of defined data elements specific to the type
+   - **Extensions** - additional data elements added by implementations
+   - **Narrative** - A human-readable description of the contents of the resource
+   - **Contained resources** - additional resources that are part of the identification and transaction space of this resource
+]
+
+---
+.left-column[
+  ## FHIR
+  ### Resources
+]
+.right-column[
+##A Patient
+###Envelope
+```json
+{
+  "Resource":{/*resource body*/},
+  //metadata
+  "logicalId":"20ed5fab-c681-48f9-a191-3ec8f96cdf1c",
+  "versionId":"15",
+  "lastModifiedDate":"2013-06-08T10:57:34+01:00",
+  //tags
+  "tags":[{...},/*...*/]
+}
+```
 ]
 ---
 .left-column[
@@ -281,6 +314,7 @@ evaluation** of health services
 ]
 .right-column[
 ##A Patient
+###Resource Body
 ```json
 {
   "resourceType":"Patient",
@@ -301,10 +335,90 @@ evaluation** of health services
 ---
 .left-column[
   ## FHIR
-  ### Paradigms?
+  ### Resources
 ]
 .right-column[
-##TODO
+##A Patient
+###Strong Semantic
+```javascript
+{/*...*/ "animal": {
+    "species": { "coding": [
+      {
+        "system": "http://hl7.org/fhir/animal-species",
+        "code": "canislf",
+        "display": "Dog"
+      }]},
+    "breed": { "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "58108001",
+        "display": "Golden retriever"
+      },
+      {
+        "system": "http://hl7.org/fhir/animal-breed",
+        "code": "gret",
+        "display": "Golden Retriever"
+      }]},
+    "genderStatus": {/*...*/}
+  },/*...*/}
+```
+]
+---
+.left-column[
+  ## FHIR
+  ### Paradigms
+]
+.right-column[
+##Paradigms
+###There are four: REST, Documents, Messages, Services
+    
+  - Regardless of paradigm the **content is the same**
+  - This means it’s **straight-forward to share content across paradigms**
+   - e.g. Receive a lab result in a message.  Package it in a discharge summary document
+  - It also means **constraints can be shared across paradigms**
+   - e.g. Define a profile for Blood Pressure and use it on resources in messages, documents, REST and services
+]
+---
+.left-column[
+  ## FHIR
+  ### REST
+]
+.right-column[
+##Rest Operations
+  - Instance Level Interactions	
+   - read, vread, update, delete, history
+  - Type Level Interactions
+   - create, search, history, validate
+  - Whole System Interactions
+   - conformance, transaction, history, search
+]
+
+---
+.left-column[
+  ## FHIR
+  ### REST
+]
+.right-column[
+##Rest Example
+get all patients named Eve
+```sh
+$ curl http://server/fhir/Patient?name:exact=Eve
+```
+searches for all the procedures in a patient compartment that occurred over a 2 year period
+```sh
+$ curl http://server/fhir/Patient/23/procedure\
+?date=>2010-01-01&date=<2011-12-31
+```
+creates a new patient
+```sh
+$ curl -X POST -d @patient.json"\
+       --header "Content-Type:application/json+fhir"\
+       http://server/fhir/Patient/
+```
+deletes the patient 23
+```sh
+$ curl -X DELETE http://server/fhir/Patient/23/
+```
 ]
 ---
 name: last-page
@@ -312,7 +426,12 @@ template: inverse
 
 ## Questions?
 
-.footnote[Slideshow created using [remark](http://github.com/gnab/remark).]
+.footnote[
+
+Slideshow theme created by astrac with [remark](http://github.com/gnab/remark).
+  
+Some contents are taken from the [fhir documentation](http://hl7.org/fhir) and from Ewout Kramer's [presentation](http://www.slideshare.net/ewoutkramer/hl7-uk-fhir-the-basics).
+]
 
     </textarea>
     <script src="js/remark.js" type="text/javascript"></script>
