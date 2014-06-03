@@ -56,6 +56,10 @@ h1 {
 .remark-slide-number {
   display: none
 }
+.remark-slide-content img
+{
+  width: 100%;
+}
 
 .the_end {
   background-image: url('../images/monoscope.png');

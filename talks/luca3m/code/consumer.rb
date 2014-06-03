@@ -6,5 +6,5 @@ puts "Start consuming.."
 
 loop do
   queue, message = r.brpop "queue"
-  puts "Receive: #{message} from queue: #{queue}"
+  puts "Received: #{message}"
 end

@@ -40,7 +40,7 @@ Software Engineer @ A-Tono
 
 1. What's Redis
 2. Paradigm
-4. Some examples
+4. Examples
 5. Real use cases
 6. Conclusions
 
@@ -65,9 +65,7 @@ Redis is a **persistent** store.
 
 ---
 
-# Persistency
-
-Redis guarantees persistence in two ways:
+# Persistence
 
 1. Every second it writes an append-only file with last write commands
 
@@ -116,8 +114,15 @@ OK
 > SMEMBERS myset
 1) "value1"
 2) "value2"
->
 ```
+---
+
+# Paradigm: other
+
+* Lists
+* Hashes
+* Sorted sets
+* HyperLogLog
 
 ---
 
@@ -131,11 +136,16 @@ OK
 ---
 
 # Task queue
---
+
+.center.middle[![Image](images/task-queue.svg)]
+---
+
+# Task queue
+
 Producer
 
 ```
-LPUSH queue hello
+LPUSH queue my_amazing_task
 ```
 --
 Consumer
