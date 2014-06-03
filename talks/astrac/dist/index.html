@@ -27,35 +27,228 @@ layout: true
 
 .right-column[
 
+- What is FP?
+
+  - From imperative to functional
+  - Referential transparency
+  - Referential transparency and purity
+  - Benefits
+
 - What is Scala?
 
   - Type inference
-  - Boilerplate reduction in class definitions
   - Variable definitions
-  - Function invocations
+  - Functions
   - Pure OO
   - Classes
   - Traits
   - Singleton objects
-  - Implicit conversions
-
-- What is Functional Programming?
-
-  - Benefits
-  - Everything is an expression
   - Case classes
+  - Boilerplate reduction in class definitions
+  - Implicit conversions
+  - Everything is an expression
+  - A type safety example: the `Option`
   - Pattern matching
   - Being expressive with higher order functions
-  - An example of purity
 ]
 ---
+template: inverse
+
+## What is FP?
+---
+.left-column[
+  ## What is FP?
+]
+.right-column[
+Functional Programming is a style of programming which models computations as
+the evaluation of expressions. The building blocks of Functional Programming are
+*pure functions*.
+
+A function is *pure* when it will not perform any side effects, thus giving the
+same output value for the same input arguments independently from when or how many
+times it has been invoked. Side effects can be anything like:
+
+- Reassigning a variable
+- Modifying a data structure in place
+- Setting a field on an object
+- Throwing an exception or halting with an error
+- Printing to the console or reading user input
+- Reading from or writing to a file
+- Drawing on the screen
+- ...
+
+**Functional programming is a restriction on how we write programs, but not on what
+programs we can express.**
+]
+---
+.left-column[
+  ## What is FP?
+  ### From imperative to functional
+]
+.right-column[
+Let's not consider syntactical aspects for now and have a look at the following
+code for a virtual store which will allow a customer to pay using some abstract
+`PaymentInfo` (e.g. credit card), a service that connects to an external payment
+provider and returns an Item:
+
+```scala
+class Store {
+  def buyItem(
+      info: PaymentInfo, payments: PaymentService): Item = {
+    val item = new Item()
+    payments.charge(info, item.price) // Side effect!
+    item
+  }
+}
+```
+
+This solutions is pretty simple and there wouldn't be anything wrong in an imperative
+environment. Nevertheless it has some drawbacks:
+
+- **Unit-testing `buyItem` means that we need to create a mock `PaymentService`**
+  implementation that doesn't contact the payment provider
+
+- **This code is not reusable**: if we want to buy multiple items we either call this
+  multiple time (maybe incurring in higher delays and payment fees) or create a
+  new function that is specific for batching payments introducing duplication
+]
+---
+.left-column[
+  ## What is FP?
+  ### From imperative to functional
+]
+.right-column[
+**A functional implementation** of the previous code **removes the side effect
+by encapsulating it in a value**. This is how it could look like:
+
+```scala
+class Store {
+  def buyItem(info: PaymentInfo): (Item, Payment) = {
+    val item = new Item()
+    (item, Payment(item, item.price))
+  }
+}
+```
+
+This implementation achieves a better **separation of concerns** by separating
+the *creation of a Payment* from the *processing of that Payment*.
+
+It is now easier to test and reuse this function when making multiple payments.
+It could also be possible to merge multiple payments by providing a method as the following:
+
+```scala
+case class Payment(info: PaymentInfo, price: Double) {
+  def combine(other: Payment): Payment =
+    if (other.info == info)
+      Payment(info, price + other.price)
+    else
+      throw new Exception("Cannot combine payments")
+}
+```
+]
+---
+.left-column[
+  ## What is FP?
+  ### Referential transparency
+]
+.right-column[
+Referential transparency is a main point in functional programming; a formal
+definition of it could be:
+
+**An expression e is referentially transparent if for all programs p, all
+occurrences of e in p can be replaced by the result of evaluating e,
+without affecting the observable behavior of p.**
+
+Let's take the first example of `Store`:
+
+```scala
+class Store {
+  def buyItem(info: PaymentInfo, payments: PaymentService): Item = {
+    val item = new Item()
+    payments.charge(info, item.price) // Side effect!
+    item
+  }
+}
+```
+
+The result of invoking `buyItem(aldoInfo, someService)`is the created item, i.e.
+`new Item()`. For this to be referential transparent in all programs I should be
+able to replace `buyItem(aldoInfo, someService)` with `new Item()` and not change
+the meaning of it. This is obviously not true because of the fact that the side
+effect would not be performed.
+
+]
+---
+.left-column[
+  ## What is FP?
+  ### Referential transparency and purity
+]
+.right-column[
+Using the concept of *referential transparency* we can now give a better and more
+formal definition of what a pure function is:
+
+**A function f is pure if the expression f(x) is referentially transparent for
+all referentially transparent x.**
+
+People not used to functional programming may wonder now: how do I get anything
+actually done in this way if I can't side-effect?
+
+The answer is that there will always be some part of your systems that is going
+to side-effect, but all side-effects should be isolated in an outer layer.
+
+A system designed adhering to functional programming principles often exhibits
+a **functional core surrounded by an imperative shell** which materializes all
+the effects.
+]
+---
+.left-column[
+  ## What is FP?
+  ### Benefits
+]
+.right-column[
+Programming by pure functions helps building software that is **easier to test** as
+side effects are separated from the business rules.
+
+Programming by pure functions helps achieving **higher degrees of parallelism**: when
+state is immutable it can be safely shared between threads and processes without
+the need for locks.
+
+Programming by pure functions helps being **concise and expressive** through higher order
+functions; as an example, given a list of objects of type Person, compare:
+
+```java
+List<String> names = new ArrayList<String>();
+Iterator<Person> it = persons.iterator();
+
+while (it.hasNext()) {
+  names.add(it.next().getName());
+}
+```
+
+```scala
+val names = persons.map(_.name)
+```
+
+A program written with pure functions is **easier to follow and to reason about**.
+
+Functional languages often exhibit **very advanced type systems** that help ensuring
+correctness.
+]
+---
+template: inverse
+
+## What is Scala?
+---
+
+
+
 .left-column[
   ## What is Scala?
 ]
 .right-column[
   Scala is a concise, modern, multi-paradigm, statically-typed language
 
-  - Created by Martin Odersky (main contributor for the JVM generics support)
+  - Created by Martin Odersky (main contributor for the JVM generics support) in the 2003
 
   - Supported by Typesafe and the EPFL (École polytechnique fédérale de Lausanne)
 
@@ -100,76 +293,35 @@ layout: true
   val s: String = "A string"
   val m: Map[String, Int] = Map(s -> n)
   ```
+
+  The inferred type will be used at compile-time as if the type was specified
+  explicitly.
 ]
 ---
 .left-column[
   ## What is Scala?
-  ### Boilerplate reduction in class definitions
+  ### Type inference
 ]
 .right-column[
-  A typical Java "Person" class
-
-  ```java
-  public class Person {
-    private String name;
-    private int age;
-
-    public Person(String name, int age) {
-      this.name = name;
-      this.age = age;
-    }
-
-    public String getName() {
-      return name;
-    }
-
-    public int getAge() {
-      return age;
-    }
-
-    public void setName(String name) {
-      this.name = name;
-    }
-
-    public void setAge(int age) {
-      this.age = age;
-    }
-  }
-  ```
-]
----
-.left-column[
-  ## What is Scala?
-  ### Boilerplate reduction in class definitions
-]
-.right-column[
-  Same example in Scala
+  When working with multiple types that share a common ancestor the inference
+  is smart enough to find the type that you probably want. Pretending that we
+  have a `Dog` and a `Cat` class extending an `Animal` class.
 
   ```scala
-  class Person(var name: String, var age: Int)
+  val animals = Array(new Dog(), new Cat())
   ```
 
-  With custom getter/setter:
-  ```scala
-  class Person(var name: String, private var _age: Int) {
+  In this case `animals` will have type `Array[Animal]` because is the most specific
+  type that is appropriate for both the arguments provided.
 
-    def age = _age // Getter
-
-    def age_=(newAge: Int) { // Setter
-      println(s"Setting age to $newAge")
-      _age = newAge
-    }
-  }
-  ```
-
-  In general this is not how value-object modelling works in Scala.
-
-  As we are going to see when talking about Functional Programming immutability
-  and *case classes* are preferred to getters and setters:
+  The extreme case is as follows:
 
   ```scala
-  case class Person(name: String, age: Int)
+  val arr = Array(new Dog(), 1, "Foo")
   ```
+
+  In this case `arr` will have type `Array[Any]`, where `Any` is the topmost
+  class in Scala's class hierarchy.
 ]
 ---
 .left-column[
@@ -210,7 +362,7 @@ layout: true
 ---
 .left-column[
   ## What is Scala?
-  ### Function invocations
+  ### Functions
 ]
 .right-column[
   Basic function definition:
@@ -303,7 +455,7 @@ dog.speak() // prints Woof!
 ```
 
   The equivalent of Java's **Object** is **Any**: all classes inherit from it. There is also
-  a type named **Nothing** which inherits from all the classes (more on this later).
+  a type named **Nothing** which inherits from all the classes.
 ]
 ---
 .left-column[
@@ -372,6 +524,137 @@ Hello.world() // prints "Hello world!"
 ]
 ---
 .left-column[
+## What is FP?
+### Case classes
+]
+.right-column[
+Scala achieves great conciseness when defining types for immutable objects through
+the *case class* construct.
+
+A case class with an empty body is defined as follows:
+
+```scala
+case class Person(name: String, age: Int)
+```
+
+Doing this Scala will provide for us:
+
+- An immutable Person class with two public properties (name and age)
+
+- A basic toString, equals and hashCode implementation
+
+- Functions on the Person instances to create updated copies of themselves
+
+- A factory function on the Person companion object
+
+- An extractor for pattern-matching over the class (more on this later)
+
+- Some more less frequently used facilities
+]
+---
+.left-column[
+## What is FP?
+### Case classes
+]
+.right-column[
+Some example usages of the `Person` case class:
+
+```scala
+// Use companion object factory method
+val alice = Person("Alice", 25)
+val bob = Person("Bob", 30)
+
+println(alice.name) // prints "Alice"
+println(alice.age) // prints "25"
+println(alice) // prints "Person(Alice, 25)"
+
+val alice2 = alice.copy(age = 26)
+
+println(alice2) // prints "Person(Alice, 26)"
+
+val bob2 = Person("Bob", 30)
+
+println(bob == bob2) // prints "True"
+println(bob == alice) // prints "False"
+println(alice == alice2) // prints "False"
+
+val set = Set(alice, bob)
+
+println(set.contains(alice)) // prints "True"
+println(set.contains(alice2)) // prints "False"
+```
+]
+---
+.left-column[
+  ## What is Scala?
+  ### Boilerplate reduction in class definitions
+]
+.right-column[
+  A typical Java "Person" class
+
+  ```java
+  public class Person {
+    private String name;
+    private int age;
+
+    public Person(String name, int age) {
+      this.name = name;
+      this.age = age;
+    }
+
+    public String getName() {
+      return name;
+    }
+
+    public int getAge() {
+      return age;
+    }
+
+    public void setName(String name) {
+      this.name = name;
+    }
+
+    public void setAge(int age) {
+      this.age = age;
+    }
+  }
+  ```
+]
+---
+.left-column[
+  ## What is Scala?
+  ### Boilerplate reduction in class definitions
+]
+.right-column[
+  Same example in Scala
+
+  ```scala
+  class Person(var name: String, var age: Int)
+  ```
+
+  With custom getter/setter:
+  ```scala
+  class Person(var name: String, private var _age: Int) {
+
+    def age = _age // Getter
+
+    def age_=(newAge: Int) { // Setter
+      println(s"Setting age to $newAge")
+      _age = newAge
+    }
+  }
+  ```
+
+  In general this is not how value-object modelling works in Scala: as we already said
+  in Functional Programming side-effects and thus mutable state is not a good thing;
+  immutable classes and *case classes* are preferred to getters and setters:
+
+  ```scala
+  case class Person(name: String, age: Int)
+  ```
+]
+---
+.left-column[
   ## What is Scala?
   ### Implicit conversions
 ]
@@ -405,68 +688,8 @@ object HelloTwice {
 ```
 ]
 ---
-template: inverse
-
-## What is Functional Programming?
----
 .left-column[
-  ## What is Functional Programming?
-]
-.right-column[
-Functional Programming is a style of programming which models computations as
-the evaluation of expressions. The building blocks of Functional Programming are
-*pure functions*.
-
-A function is *pure* when it will not perform any side effects, thus giving the
-same output value for the same input arguments independently from when or how many
-times it has been invoked. Side effects can be anything like:
-
-- Reassigning a variable
-- Modifying a data structure in place
-- Setting a field on an object
-- Throwing an exception or halting with an error
-- Printing to the console or reading user input
-- Reading from or writing to a file
-- Drawing on the screen
-
-**Functional programming is a restriction on how we write programs, but not on what
-programs we can express.**
-]
----
-.left-column[
-  ## What is Functional Programming?
-  ### Benefits
-]
-.right-column[
-Programming by pure functions helps building software that is **easier to test** as
-side effects are separated from the business rules.
-
-Programming by pure functions helps achieving **higher degrees of parallelism**: when
-state is immutable it can be safely shared between threads and processes without
-the need for locks.
-
-Programming by pure functions helps being **concise and expressive** through higher order
-functions; as an example, given a list of objects of type Person, compare:
-
-```java
-List<String> names = new ArrayList<String>();
-for (Iterator<Person> it = persons.iterator(); it.hasNext(); ) {
-  names.add(it.next().getName());
-}
-```
-
-```scala
-val names = persons.map(_.name)
-```
-
-A program written with pure functions is **easier to follow and to reason about**.
-
-Functional languages often exhibit **very advanced type systems** that help ensuring
-correctness.
-]
----
-.left-column[
-## What is Functional Programming?
+## What is Scala?
 ### Everything is an expression
 ]
 .right-column[
@@ -492,7 +715,7 @@ In this sense it helps the developer to be *honest about types*.
 ]
 ---
 .left-column[
-## What is Functional Programming?
+## What is Scala?
 ### Everything is an expression
 ]
 .right-column[
@@ -525,74 +748,16 @@ def doSomething
 ]
 ---
 .left-column[
-## What is Functional Programming?
-### Case classes
+## What is Scala?
+### A type safety example: the Option
 ]
 .right-column[
-Scala achieves great conciseness when defining types for immutable objects through
-the *case class* construct.
+Scala has a very flexible type-system which can be used to enforce compile-time
+correctness in programs.
 
-A case class with an empty body is defined as follows:
-
-```scala
-case class Person(name: String, age: Int)
-```
-
-Doing this Scala will provide for us:
-
-- An immutable Person class with two public properties (name and age)
-
-- A basic toString, equals and hashCode implementation
-
-- Functions on the Person instances to create updated copies of themselves
-
-- A factory function on the Person companion object
-
-- An extractor for pattern-matching over the class (more on this later)
-
-- Some more less frequently used facilities
-]
----
-.left-column[
-## What is Functional Programming?
-### Case classes
-]
-.right-column[
-Some example usages of the `Person` case class:
-
-```scala
-// Use companion object factory method
-val alice = Person("Alice", 25)
-val bob = Person("Bob", 30)
-
-println(alice.name) // prints "Alice"
-println(alice.age) // prints "25"
-println(alice) // prints "Person(Alice, 25)"
-
-val alice2 = alice.copy(age = 26)
-
-println(alice2) // prints "Person(Alice, 26)"
-
-val bob2 = Person("Bob", 30)
-
-println(bob == bob2) // prints "True"
-println(bob == alice) // prints "False"
-println(alice == alice2) // prints "False"
-
-val set = Set(alice, bob)
-
-println(set.contains(alice)) // prints "True"
-println(set.contains(alice2)) // prints "False"
-```
-]
----
-.left-column[
-## What is Functional Programming?
-### Option type
-]
-.right-column[
-In Scala the basic form of this looks like a switch statement. Let's take a simplified
-version of the definition of the standard Scala library for the `Option` type:
+In most languages, when we need to express an optional return value, we would use
+`null`, giving space for the infamous `NullPointerException` and all sorts of
+run-time errors.
 
 ```scala
 sealed trait Option[T]
@@ -611,15 +776,12 @@ def maybeParseInt(s: String): Option[Int] =
 The power of this type is evident: it encodes in the type-system the fact that a
 value can be there or not.
 
-In most languages we would use `null`, giving space for the infamous
-`NullPointerException` which is the most common source of crashes.
-
 The actual option type has a *monadic interface* which makes it very easy and clean
 to work with it.
 ]
 ---
 .left-column[
-## What is Functional Programming?
+## What is Scala?
 ### Pattern matching
 ]
 .right-column[
@@ -650,7 +812,7 @@ def squared(x: Option[Int]) = x.map(v => v * v)
 ]
 ---
 .left-column[
-## What is Functional Programming?
+## What is Scala?
 ### Being expressive with higher order functions
 ]
 .right-column[
@@ -658,13 +820,83 @@ def squared(x: Option[Int]) = x.map(v => v * v)
 
 This is another feature very common in functional languages and it helps achieving
 very high degrees of conciseness.
+
+We already saw some examples of them; in the previous slide we wrote:
+
+```scala
+def squared(x: Option[Int]) = x.map(v => v * v)
+```
+
+A simplified version of the definition of `Option` and `map` could be:
+
+```scala
+sealed trait Option[A] {
+  def map[B](f: A => B): Option[B] = this match {
+    case Some(v) => Some(f(v))
+    case None => None
+  }
+}
+```
+
+`map` is an higher order function because it accepts the (`f`) function as argument.
+As you can see in the signature in Scala function arguments are statically typed
+as any other type.
 ]
 ---
 .left-column[
-## What is Functional Programming?
-### An example of purity
+## What is Scala?
+### Being expressive with higher order functions
 ]
 .right-column[
+Higher order functions are widely used in Scala to write concise and expressive
+code. Some examples from the collection APIs using the Person class we defined
+earlier:
+
+```scala
+trait List[A] {
+  def groupBy[B](f: A => B): Map[B, List[A]]
+  def filter(f: A => Boolean): List[A]
+  def map[B](f: A => B): List[B]
+  def foldLeft[B](start: B)(f: (B, A) => B): B
+}
+
+def peopleByAge(ps: List[Person]):
+  Map[Int, List[Person]] = ps.groupBy(_.age)
+
+def underAgePersons(ps: List[Person]): List[Person] =
+  ps.filter(_.age >= 18)
+
+def averageAge(ps: List[Person]): Double =
+  ps.map(_.age).foldLeft(0.0)(_ + _) / ps.length
+```
+
+The underscore `_` is a place-holder for anonymous functions that use only once
+the provided parameter(s). The followings are equivalent:
+
+```scala
+ps.filter(_.age >= 18)
+ps.filter(p => p.age >= 18)
+ps.filter((p: Person) => p.age >= 18)
+```
+]
+---
+.left-column[
+## References
+]
+.right-column[
+
+- Courses on Coursera (http://coursera.org)
+
+  - Functional Programming in Scala, an introduction from Martin Odersky himself
+  - Reactive Programming, a more advanced course on reactive systems in Scala
+
+- Some books
+
+  - Programming in Scala - Martin Odersky - Artima
+  - Functional Programming in Scala - Paul Chiusano, Runar Bjarnason - Manning Publications (MEAP)
+  - Scala for the Impatient - Cay S. Horstmann - Addison, Wesley
+
+- My blog with a couple of articles on Scala - http://blog.astrac.me
 ]
 ---
 name: last-page
