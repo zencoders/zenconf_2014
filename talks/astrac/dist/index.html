@@ -86,15 +86,13 @@ programs we can express.**
   ### From imperative to functional
 ]
 .right-column[
-Let's not consider syntactical aspects for now and have a look at the following
-code for a virtual store which will allow a customer to pay using some abstract
-`PaymentInfo` (e.g. credit card), a service that connects to an external payment
-provider and returns an Item:
+Let's skip syntax for now and have a look at the following code for a virtual store
+which will allow a customer to pay using some `PaymentInfo`:
 
 ```scala
 class Store {
-  def buyItem(
-      info: PaymentInfo, payments: PaymentService): Item = {
+  def buyItem(info: PaymentInfo,
+      payments: PaymentService): Item = {
     val item = new Item()
     payments.charge(info, item.price) // Side effect!
     item
@@ -109,8 +107,8 @@ environment. Nevertheless it has some drawbacks:
   implementation that doesn't contact the payment provider
 
 - **This code is not reusable**: if we want to buy multiple items we either call this
-  multiple time (maybe incurring in higher delays and payment fees) or create a
-  new function that is specific for batching payments introducing duplication
+  multiple time or create a new function that is specific for batching payments
+  introducing duplication
 ]
 ---
 .left-column[
@@ -210,8 +208,7 @@ Programming by pure functions helps building software that is **easier to test**
 side effects are separated from the business rules.
 
 Programming by pure functions helps achieving **higher degrees of parallelism**: when
-state is immutable it can be safely shared between threads and processes without
-the need for locks.
+state is immutable it can be safely shared between threads without the need for locking.
 
 Programming by pure functions helps being **concise and expressive** through higher order
 functions; as an example, given a list of objects of type Person, compare:
@@ -219,7 +216,6 @@ functions; as an example, given a list of objects of type Person, compare:
 ```java
 List<String> names = new ArrayList<String>();
 Iterator<Person> it = persons.iterator();
-
 while (it.hasNext()) {
   names.add(it.next().getName());
 }
